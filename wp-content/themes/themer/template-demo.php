@@ -12,7 +12,7 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 
                 <div class="jumbotron">
-                <p>Hello</p>
+                <p>dear lord please work</p>
                 </div>
                 
 				<?php the_content(); ?>
