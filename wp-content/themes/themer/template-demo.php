@@ -10,15 +10,6 @@
 
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<h1>brooke</h1>
-                <?php if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-    
-                ?>
-	            <img src="<?php the_post_thumbnail_url();?>" atl="test"/>
-                
-                <?php
-                }
-                ?>
                 
 				<?php the_content(); ?>
 
