@@ -1,0 +1,17 @@
+body{
+	direction: rtl;
+  	unicode-bidi: embed;
+}
+
+.comment-author-vcard{
+	float: right;
+}
+
+.comment-author-meta {
+    float: right;
+    padding: 7px 12px 7px 0;
+}
+.container-fluid{
+	margin-left:30px;
+	margin-right:30px;
+}

@@ -1,0 +1,1982 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NatureWPTheme\n"
+"POT-Creation-Date: 2013-06-23 03:21+0600\n"
+"PO-Revision-Date: 2013-06-23 03:22+0600\n"
+"Last-Translator: rupam <bbuppy@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../circlus/comments.php:7
+msgid "No comments."
+msgstr ""
+
+#: ../circlus/comments.php:21 ../IdeanosseWPTheme/comments.php:16
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:92
+#: ../NatureWPTheme/comments.php:24 ../tg/functions.php:228
+#: ../twentyeleven/functions.php:557 ../twentytwelve/functions.php:308
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../circlus/comments.php:36 ../IdeanosseWPTheme/comments.php:33
+#: ../MeetGavernWP/comments.php:68 ../twentyeleven/comments.php:71
+#: ../twentytwelve/comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: ../circlus/functions/meta_box.php:20
+#: ../IdeanosseWPTheme/functions/meta_box.php:20
+msgid "You don't have permission to delete this file."
+msgstr ""
+
+#: ../circlus/functions/meta_box.php:24
+#: ../IdeanosseWPTheme/functions/meta_box.php:24
+msgid "File has been successfully deleted."
+msgstr ""
+
+#: ../circlus/functions/meta_box.php:341
+#: ../IdeanosseWPTheme/functions/meta_box.php:341
+msgid "Uploaded files"
+msgstr ""
+
+#: ../circlus/functions/meta_box.php:355
+#: ../IdeanosseWPTheme/functions/meta_box.php:355
+msgid "Upload new files"
+msgstr ""
+
+#: ../circlus/functions/meta_box.php:358
+#: ../IdeanosseWPTheme/functions/meta_box.php:358
+msgid "Add more file"
+msgstr ""
+
+#: ../circlus/functions/meta_box.php:383
+#: ../IdeanosseWPTheme/functions/meta_box.php:383
+msgid "Uploaded images"
+msgstr ""
+
+#: ../circlus/functions/meta_box.php:397
+#: ../IdeanosseWPTheme/functions/meta_box.php:397
+msgid "Upload new images"
+msgstr ""
+
+#: ../circlus/functions/meta_box.php:400
+msgid "Add more image"
+msgstr ""
+
+#: ../circlus/functions/meta_box.php:409
+#: ../IdeanosseWPTheme/functions/meta_box.php:409
+msgid "Select a color"
+msgstr ""
+
+#: ../dw-page-modern-startx/functions.php:394
+#: ../PressGrid/frontend-profile-option.php:55
+msgid "Facebook URL"
+msgstr ""
+
+#: ../dw-page-modern-startx/functions.php:403
+#: ../PressGrid/frontend-profile-option.php:61
+msgid "Twitter URL"
+msgstr ""
+
+#: ../dw-page-modern-startx/functions.php:412
+msgid "Flickr URL"
+msgstr ""
+
+#: ../dw-page-modern-startx/functions.php:510
+msgid "Scroll to top"
+msgstr ""
+
+#: ../dw-page-modern-startx/functions.php:510
+#: ../MeetGavernWP/gavern/widgets.nsp.php:727
+msgid "Top"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/clients.php:70
+msgid "Client URL"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/clients.php:76
+msgid "Client Logo"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/clients.php:80
+#: ../dw-page-modern-startx/inc/projects.php:153
+#: ../dw-page-modern-startx/inc/projects.php:158
+#: ../dw-page-modern-startx/inc/projects.php:163
+#: ../dw-page-modern-startx/inc/testimonials.php:82
+msgid "Upload image"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/clients.php:81
+#: ../dw-page-modern-startx/inc/testimonials.php:83
+msgid "Recommend width: 60px"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:153
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:150
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:368
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:370
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:162
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:159
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:380
+msgid "URL"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:169
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:166
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:387
+msgid "Navigation Label"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:175
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:172
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:393
+msgid "Title Attribute"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:186
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:183
+msgid "Section title"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:192
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:189
+msgid "Section title attribute"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:200
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:198
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:205
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:203
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:414
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:211
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:209
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:420
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:217
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:215
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:426
+msgid "Description"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:219
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:217
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:428
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:238
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:236
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:466
+msgid "Remove"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/nav-menus-hook.php:239
+#: ../IdeanosseWPTheme/functions/nav-menus-hook.php:237
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:470
+#: ../Velo/includes/shortcodes.php:183
+msgid "Cancel"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/projects.php:125
+msgid "Project URL"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/projects.php:131
+msgid "Client Name"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/projects.php:137
+msgid "Project Date"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/projects.php:143
+msgid "Project Skills"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/projects.php:149
+msgid "Project Images"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/projects.php:154
+msgid "Small size - Recommend width: 210px"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/projects.php:159
+msgid "Medium size - Recommend width: 290px"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/projects.php:164
+msgid "Large size - Recommend width: 400px"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/testimonials.php:66
+#: ../tg/inc/page-builder/blocks/aq-search-block.php:40
+#: ../tg/inc/page-builder/blocks/aq-text-block.php:46
+#: ../tg/inc/page-builder/blocks/aq-text-full-block.php:46
+#: ../tg/inc/page-builder/blocks/aq-text-half-block.php:46
+#: ../tg/inc/page-builder/blocks/aq-text-three-quarters-block.php:46
+msgid "Content"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/testimonials.php:72
+msgid "By (Name)"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/testimonials.php:78
+msgid "Avatar"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/testimonials.php:88
+msgid "Job title"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/testimonials.php:94
+msgid "Company"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/testimonials.php:100
+#: ../PressGrid/frontend-profile-option.php:49
+msgid "Website"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/users.php:55
+msgid "Hire Alert"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/users.php:101
+msgid "Turn on hiring"
+msgstr ""
+
+#: ../dw-page-modern-startx/inc/users.php:149
+msgid ""
+"Choose the menu section that show contact form, in there guest can contact "
+"you for apply hiring"
+msgstr ""
+
+#: ../IdeanosseWPTheme/404.php:50 ../NatureWPTheme/404.php:6
+msgid "404"
+msgstr ""
+
+#: ../IdeanosseWPTheme/404.php:51 ../NatureWPTheme/404.php:7
+msgid "Opps! Something went wrong..."
+msgstr ""
+
+#: ../IdeanosseWPTheme/404.php:52 ../NatureWPTheme/404.php:8
+msgid "Page not found. Please continue to our"
+msgstr ""
+
+#: ../IdeanosseWPTheme/archive.php:18 ../NatureWPTheme/archive.php:21
+#: ../PressGrid/header.php:72 ../PressGrid/sidebar.php:13
+#: ../twentyeleven/sidebar.php:19 ../twentytwelve/archive.php:35
+msgid "Archives"
+msgstr ""
+
+#: ../IdeanosseWPTheme/functions/flickr_widget.php:21
+#: ../MeetGavernWP/gavern/widgets.comments.php:187
+#: ../MeetGavernWP/gavern/widgets.nsp.php:449
+#: ../MeetGavernWP/gavern/widgets.social.php:139
+#: ../MeetGavernWP/gavern/widgets.tabs.php:215
+#: ../PressGrid/framework/widgets/flickr_widget.php:21
+#: ../twentyeleven/inc/widgets.php:157
+msgid "Title:"
+msgstr ""
+
+#: ../IdeanosseWPTheme/functions/flickr_widget.php:30
+#: ../PressGrid/framework/widgets/flickr_widget.php:30
+msgid "Flickr user ID:"
+msgstr ""
+
+#: ../IdeanosseWPTheme/functions/flickr_widget.php:37
+#: ../PressGrid/framework/widgets/flickr_widget.php:37
+msgid "How many pictures display:"
+msgstr ""
+
+#: ../MeetGavernWP/404.php:18
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: ../MeetGavernWP/404.php:20
+msgid "Perhaps searching, or one of the links below, can help."
+msgstr ""
+
+#: ../MeetGavernWP/404.php:30 ../twentyeleven/404.php:28
+msgid "Most Used Categories"
+msgstr ""
+
+#: ../MeetGavernWP/archive.php:25 ../twentyeleven/archive.php:31
+msgid "Blog Archives"
+msgstr ""
+
+#: ../MeetGavernWP/archive.php:43 ../MeetGavernWP/author.php:43
+#: ../MeetGavernWP/category.php:46 ../MeetGavernWP/index.php:41
+#: ../MeetGavernWP/search.php:45 ../MeetGavernWP/search.php:55
+#: ../MeetGavernWP/tag.php:43 ../MeetGavernWP/template.latest.php:36
+#: ../twentyeleven/archive.php:57 ../twentyeleven/author.php:74
+#: ../twentyeleven/category.php:50 ../twentyeleven/index.php:37
+#: ../twentyeleven/search.php:42 ../twentyeleven/tag.php:50
+#: ../twentytwelve/content-none.php:13 ../twentytwelve/index.php:49
+#: ../twentytwelve/search.php:34
+msgid "Nothing Found"
+msgstr ""
+
+#: ../MeetGavernWP/archive.php:45 ../MeetGavernWP/author.php:47
+#: ../MeetGavernWP/category.php:50 ../MeetGavernWP/index.php:45
+#: ../MeetGavernWP/tag.php:47 ../MeetGavernWP/template.latest.php:40
+#: ../twentyeleven/archive.php:61 ../twentyeleven/author.php:78
+#: ../twentyeleven/category.php:54 ../twentyeleven/index.php:41
+#: ../twentyeleven/tag.php:54
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: ../MeetGavernWP/comments.php:13 ../twentyeleven/comments.php:17
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../MeetGavernWP/search.php:49 ../MeetGavernWP/search.php:61
+#: ../PressGrid/search.php:41 ../PressGrid/tag.php:40
+#: ../twentyeleven/search.php:46 ../twentytwelve/search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../MeetGavernWP/searchform.php:13 ../twentyeleven/searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: ../MeetGavernWP/template.archive.php:28
+msgid "Lastest posts"
+msgstr ""
+
+#: ../MeetGavernWP/template.archive.php:40
+msgid "Categories"
+msgstr ""
+
+#: ../MeetGavernWP/template.archive.php:53
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../MeetGavernWP/template.contact.php:109
+msgid "Your message was sent to us successfully."
+msgstr ""
+
+#: ../MeetGavernWP/template.contact.php:110
+msgid "Back to the homepage"
+msgstr ""
+
+#: ../MeetGavernWP/template.contact.php:114
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: ../MeetGavernWP/template.contact.php:120
+msgid "Name:"
+msgstr ""
+
+#: ../MeetGavernWP/template.contact.php:130
+msgid "Email:"
+msgstr ""
+
+#: ../MeetGavernWP/template.contact.php:140
+msgid "Message:"
+msgstr ""
+
+#: ../MeetGavernWP/template.contact.php:152
+msgid "Send copy of the message to yourself"
+msgstr ""
+
+#: ../MeetGavernWP/template.contact.php:175
+msgid "Send message"
+msgstr ""
+
+#: ../MeetGavernWP/template.login.php:33 ../MeetGavernWP/template.login.php:34
+msgid "Logout"
+msgstr ""
+
+#: ../MeetGavernWP/template.login.php:63
+#: ../PressGrid/framework/pressgrid.php:113
+#: ../PressGrid/framework/pressgrid.php:159
+msgid "Password Lost and Found"
+msgstr ""
+
+#: ../MeetGavernWP/template.login.php:63
+#: ../PressGrid/framework/pressgrid.php:113
+#: ../PressGrid/framework/pressgrid.php:159
+msgid "Lost your password?"
+msgstr ""
+
+#: ../MeetGavernWP/template.login.php:66
+msgid "Not a member? Register"
+msgstr ""
+
+#: ../MeetGavernWP/template.login.php:66
+#: ../PressGrid/framework/pressgrid.php:112
+#: ../PressGrid/framework/pressgrid.php:132
+#: ../PressGrid/framework/pressgrid.php:155
+msgid "Register"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/filters.php:122
+msgid "Homepage"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/options.importexport.php:29
+#: ../MeetGavernWP/gavern/layouts/template.php:28
+msgid "Based on the Gavern WP framework"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/options.template.php:173
+msgid "Settings saved"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.comments.php:192
+msgid "Avatar size:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.comments.php:197
+msgid "Word count:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.comments.php:202
+msgid "Number of comments:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:446
+msgid "Basic settings"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:453
+msgid "Data source settings"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:456
+msgid "Data source:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:460
+msgid "Latest posts"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:463
+msgid "Categories slugs"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:466
+msgid "Posts slugs"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:469
+msgid "Custom post types"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:477
+msgid "Order by:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:481
+msgid "ID"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:485 ../tg/archive-portfolio.php:60
+#: ../tg/single-portfolio.php:71
+#: ../tg/inc/page-builder/blocks/aq-portfolio-block.php:81
+#: ../tg/inc/page-builder/blocks/aq-portfolio-filter-block.php:134
+msgid "Date"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:489
+#: ../MeetGavernWP/gavern/widgets.nsp.php:611
+#: ../MeetGavernWP/gavern/widgets.nsp.php:801
+#: ../PressGrid/frontend-edit.php:63
+msgid "Title"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:493
+msgid "Modified"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:497
+msgid "Random"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:503
+msgid "ASC"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:506
+msgid "DESC"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:512
+msgid "Offset:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:517
+msgid "Articles amount"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:518
+#: ../MeetGavernWP/gavern/widgets.nsp.php:530
+msgid "pages:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:521
+msgid "columns:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:524
+#: ../MeetGavernWP/gavern/widgets.nsp.php:533
+msgid "rows:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:529
+msgid "Links amount"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:538
+msgid "Article pagination:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:542
+#: ../MeetGavernWP/gavern/widgets.nsp.php:558
+msgid "Pagination"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:545
+#: ../MeetGavernWP/gavern/widgets.nsp.php:561
+msgid "Arrows"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:548
+#: ../MeetGavernWP/gavern/widgets.nsp.php:564
+msgid "Both"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:554
+msgid "Links pagination:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:569
+msgid "Autoanimation settings"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:572
+msgid "Auto-animation:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:575
+#: ../MeetGavernWP/gavern/widgets.nsp.php:592
+#: ../MeetGavernWP/gavern/widgets.nsp.php:615
+#: ../MeetGavernWP/gavern/widgets.nsp.php:653
+#: ../MeetGavernWP/gavern/widgets.nsp.php:691
+#: ../MeetGavernWP/gavern/widgets.nsp.php:737
+#: ../MeetGavernWP/gavern/widgets.nsp.php:778
+#: ../MeetGavernWP/gavern/widgets.nsp.php:805
+#: ../MeetGavernWP/gavern/widgets.nsp.php:831
+msgid "On"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:578
+#: ../MeetGavernWP/gavern/widgets.nsp.php:595
+#: ../MeetGavernWP/gavern/widgets.nsp.php:618
+#: ../MeetGavernWP/gavern/widgets.nsp.php:656
+#: ../MeetGavernWP/gavern/widgets.nsp.php:694
+#: ../MeetGavernWP/gavern/widgets.nsp.php:740
+#: ../MeetGavernWP/gavern/widgets.nsp.php:781
+#: ../MeetGavernWP/gavern/widgets.nsp.php:808
+#: ../MeetGavernWP/gavern/widgets.nsp.php:834
+msgid "Off"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:584
+msgid "Interval (ms):"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:589
+msgid "Auto-animation stops on hover:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:602
+msgid "Article format"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:605
+msgid "Padding:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:622
+#: ../MeetGavernWP/gavern/widgets.nsp.php:660
+#: ../MeetGavernWP/gavern/widgets.nsp.php:812
+#: ../MeetGavernWP/gavern/widgets.nsp.php:838
+msgid "length:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:628
+#: ../MeetGavernWP/gavern/widgets.nsp.php:666
+#: ../MeetGavernWP/gavern/widgets.nsp.php:818
+#: ../MeetGavernWP/gavern/widgets.nsp.php:844
+msgid "Chars"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:631
+#: ../MeetGavernWP/gavern/widgets.nsp.php:669
+#: ../MeetGavernWP/gavern/widgets.nsp.php:821
+#: ../MeetGavernWP/gavern/widgets.nsp.php:847
+msgid "Words"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:636
+#: ../MeetGavernWP/gavern/widgets.nsp.php:674
+#: ../MeetGavernWP/gavern/widgets.nsp.php:705
+#: ../MeetGavernWP/gavern/widgets.nsp.php:745
+#: ../MeetGavernWP/gavern/widgets.nsp.php:786
+msgid "order:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:649
+#: ../MeetGavernWP/gavern/widgets.nsp.php:827
+#: ../tg/inc/page-builder/blocks/aq-section-intro-block.php:61
+msgid "Text"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:687
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.php:884
+#: ../twentyeleven/content-image.php:16
+msgid "Image"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:698
+msgid "size:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:718
+msgid "Margin:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:724
+msgid "Position:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:728
+msgid "Left"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:733
+msgid "Info block"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:762
+msgid "Format:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:768
+msgid "Date format:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:774
+msgid "Read more"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:798
+msgid "Link format"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:852
+msgid "Cache settings"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.nsp.php:855
+msgid "Cache time (min):"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.social.php:144
+msgid "Facebook link:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.social.php:149
+msgid "Twitter link:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.social.php:154
+msgid "Google+ link:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.social.php:159
+msgid "RSS link:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:130
+msgid "No title specified!"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:220
+msgid "Tabs source:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:232
+msgid "Tabs activator event:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:236
+msgid "Click"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:239
+msgid "Hover"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:245
+msgid "Auto animation:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:249
+msgid "Enabled"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:252
+msgid "Disabled"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:258
+msgid "Animation speed (ms):"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/widgets.tabs.php:263
+msgid "Animation interval (ms):"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:78
+#: ../twentyeleven/functions.php:525 ../twentytwelve/functions.php:281
+msgid "Pingback:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:205
+msgid "Post date:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:226
+msgid "Category:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:233
+msgid "Author:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:240
+msgid "Comments:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:254
+msgid "Tags:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:262
+msgid "Attachment size:"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:279
+msgid "permalink"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:497
+msgid "Website: "
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.fragments.php:509
+msgid "Google Profile"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.php:882
+msgid "Next >"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.php:883
+msgid "< Prev"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.php:885
+msgid "of"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.php:886
+msgid "Close"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/helpers/helpers.layout.php:887
+msgid ""
+"This feature requires inline frames. You have iframes disabled or your "
+"browser does not support them."
+msgstr ""
+
+#: ../MeetGavernWP/gavern/layouts/template.php:30
+msgid "Customize theme"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/layouts/template.php:52
+msgid "Saving&hellip;"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/layouts/template.php:52
+msgid "Save settings"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/layouts/template.php:52
+msgid "Please check the form!"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/layouts/updates.php:17
+msgid "Updates"
+msgstr ""
+
+#: ../MeetGavernWP/gavern/layouts/updates.php:21
+msgid "Template version: "
+msgstr ""
+
+#: ../MeetGavernWP/layouts/content.post.header.php:37
+#: ../twentyeleven/content.php:16
+msgid "Featured"
+msgstr ""
+
+#: ../MeetGavernWP/layouts/footer.php:23 ../PressGrid/functions.php:755
+msgid "Back to top"
+msgstr ""
+
+#: ../MeetGavernWP/layouts/header.php:85 ../twentyeleven/header.php:129
+msgid "Main menu"
+msgstr ""
+
+#: ../PressGrid/404.php:18 ../PressGrid/search.php:40
+msgid "Not Found"
+msgstr ""
+
+#: ../PressGrid/404.php:19 ../twentyeleven/404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+
+#: ../PressGrid/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../PressGrid/content-single.php:28 ../PressGrid/frontend-favorite.php:36
+msgid "You must be logged in !"
+msgstr ""
+
+#: ../PressGrid/content-single.php:41
+msgid "by"
+msgstr ""
+
+#: ../PressGrid/content-single.php:41
+msgid "in"
+msgstr ""
+
+#: ../PressGrid/frontend-edit.php:69
+msgid "Featured image"
+msgstr ""
+
+#: ../PressGrid/frontend-edit.php:72
+msgid "image upload"
+msgstr ""
+
+#: ../PressGrid/frontend-edit.php:76
+msgid "Excerpt"
+msgstr ""
+
+#: ../PressGrid/frontend-edit.php:82
+msgid "Slug"
+msgstr ""
+
+#: ../PressGrid/frontend-edit.php:105 ../PressGrid/frontend-edit.php:106
+#: ../PressGrid/frontend-edit.php:109
+#: ../PressGrid/frontend-profile-option.php:110
+#: ../PressGrid/framework/pressgrid.php:106
+#: ../PressGrid/framework/pressgrid.php:128
+#: ../PressGrid/framework/pressgrid.php:155
+msgid "Loading..."
+msgstr ""
+
+#: ../PressGrid/frontend-edit.php:105
+msgid "Delete post"
+msgstr ""
+
+#: ../PressGrid/frontend-edit.php:106
+msgid "Update post"
+msgstr ""
+
+#: ../PressGrid/frontend-edit.php:109
+msgid "Add post"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:25
+msgid "Change Avatar"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:31
+msgid "First name"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:37
+msgid "Last name"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:43
+#: ../PressGrid/framework/pressgrid.php:149
+msgid "E-mail"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:67
+msgid "AIM"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:73
+msgid "Yahoo IM"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:79
+msgid "Jabber / Google Talk"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:85
+msgid "Biographical Info"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:92
+msgid "New password"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:98
+msgid "Confirm password"
+msgstr ""
+
+#: ../PressGrid/frontend-profile-option.php:110
+msgid "Update profile"
+msgstr ""
+
+#: ../PressGrid/functions.php:410
+msgid "Post Filter"
+msgstr ""
+
+#: ../PressGrid/functions.php:759
+msgid "Load more"
+msgstr ""
+
+#: ../PressGrid/functions.php:761
+msgid "remaining"
+msgstr ""
+
+#: ../PressGrid/functions.php:761
+msgid "No more posts"
+msgstr ""
+
+#: ../PressGrid/functions.php:963
+msgid "My profile"
+msgstr ""
+
+#: ../PressGrid/functions.php:965
+msgid "My settings"
+msgstr ""
+
+#: ../PressGrid/functions.php:968
+msgid "Add Post"
+msgstr ""
+
+#: ../PressGrid/functions.php:971
+msgid "My drafts"
+msgstr ""
+
+#: ../PressGrid/functions.php:974
+msgid "Favorite posts"
+msgstr ""
+
+#: ../PressGrid/functions.php:977
+msgid "Log out"
+msgstr ""
+
+#: ../PressGrid/functions.php:983
+msgid "Not a Member?"
+msgstr ""
+
+#: ../PressGrid/functions.php:985
+msgid "Join Now"
+msgstr ""
+
+#: ../PressGrid/functions.php:998
+msgid "Sign In"
+msgstr ""
+
+#: ../PressGrid/header.php:33
+msgid "Loading the next set of posts..."
+msgstr ""
+
+#: ../PressGrid/header.php:34
+msgid "No more pages to load."
+msgstr ""
+
+#: ../PressGrid/loop.php:124
+msgid "Author: "
+msgstr ""
+
+#: ../PressGrid/loop.php:160
+msgid "No post"
+msgstr ""
+
+#: ../PressGrid/page-template-archive.php:24
+msgid "Last 10 Posts"
+msgstr ""
+
+#: ../PressGrid/page-template-archive.php:37
+msgid "Archives by Month"
+msgstr ""
+
+#: ../PressGrid/page-template-archive.php:43
+msgid "Archives by Category"
+msgstr ""
+
+#: ../PressGrid/post-author.php:27
+msgid "The author didnt add any Information to his profile yet"
+msgstr ""
+
+#: ../PressGrid/post-meta.php:35
+msgid "likes"
+msgstr ""
+
+#: ../PressGrid/post-meta.php:36
+msgid "like"
+msgstr ""
+
+#: ../PressGrid/search.php:17
+msgid "Search result"
+msgstr ""
+
+#: ../PressGrid/admin/classes/class.options_machine.php:664
+#: ../PressGrid/framework/includes/metaboxes/slide_meta.php:159
+#: ../twentytwelve/admin/classes/class.options_machine.php:614
+#: ../valera/admin/classes/class.options_machine.php:516
+msgid "Upload"
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/lib/media_tab.php:158
+msgid ""
+"Click image from media library or drag it to the \"Selected images\" area"
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/lib/media_tab.php:170
+msgid "or add images from your computer."
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/lib/media_tab.php:229
+msgid "Selected images"
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/lib/media_tab.php:230
+msgid ""
+"Use your mouse to drag images around to place them in the desired order."
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/lib/media_tab.php:238
+msgid "Update files list"
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/settings/js_composer_settings_menu.php:37
+msgid "Theme Elements Settings VVVervsion"
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/settings/js_composer_settings_menu.php:43
+msgid "Content types"
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/settings/js_composer_settings_menu.php:46
+msgid "Post types"
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/settings/js_composer_settings_menu.php:67
+msgid ""
+"Select for which content types Theme Elements should be available during "
+"post creation/editing."
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/settings/js_composer_settings_menu.php:80
+msgid "Thank you"
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/settings/js_composer_settings_menu.php:81
+msgid ""
+"Theme Elements will save you a lot of time while working with your sites "
+"content."
+msgstr ""
+
+#: ../PressGrid/admin/composer/composer/settings/js_composer_settings_menu.php:82
+msgid ""
+"If you have comments or simply want to say \"Hi\", please check <a href="
+"\"http://wpbakery.com/vc/\" title=\"\" target=\"_blank\">plugins homepage</"
+"a>."
+msgstr ""
+
+#: ../PressGrid/admin/front-end/options.php:69
+#: ../PressGrid/admin/front-end/options.php:93
+#: ../twentytwelve/admin/front-end/options.php:43
+#: ../twentytwelve/admin/front-end/options.php:67
+#: ../valera/admin/front-end/options.php:42
+#: ../valera/admin/front-end/options.php:66
+msgid "Save All Changes"
+msgstr ""
+
+#: ../PressGrid/admin/front-end/options.php:94
+#: ../twentytwelve/admin/front-end/options.php:68
+#: ../valera/admin/front-end/options.php:67
+msgid "Options Reset"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:40
+msgid "Enable auto publish"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:44
+msgid ""
+"Regular user posts content with Draft status. If you activate this field, "
+"user can add posts published. This options just for your more trusted users."
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:89
+#: ../PressGrid/framework/pressgrid.php:145
+#: ../Velo/includes/widget-tweets.php:38
+msgid "Username"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:95
+msgid "Password"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:102
+msgid "Remember Me"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:106
+msgid "Log In"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:121
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:124
+msgid "Username or E-mail:"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:128
+msgid "Get New Password"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:131
+#: ../PressGrid/framework/pressgrid.php:158
+msgid "Log in"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:142
+msgid "Register For This Site"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:152
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:455
+msgid "Post status: "
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:462
+msgid "Failed!!! "
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:466
+msgid "Not loged in."
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:489
+msgid "Profile updated"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:491
+msgid "Profile not updated"
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:494
+msgid "Not your profile. Refresh this page."
+msgstr ""
+
+#: ../PressGrid/framework/pressgrid.php:497
+msgid "Not loged in"
+msgstr ""
+
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:363
+msgid "Column"
+msgstr ""
+
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:364
+msgid "(Mega Menu)"
+msgstr ""
+
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:365
+msgid "Widget"
+msgstr ""
+
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:399
+msgid "Subtitle"
+msgstr ""
+
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:405
+msgid "Link Target"
+msgstr ""
+
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:407
+msgid "Same window or tab"
+msgstr ""
+
+#: ../PressGrid/framework/admin/lib/themeton_mega_menu.php:408
+msgid "New window or tab"
+msgstr ""
+
+#: ../PressGrid/framework/includes/functions.php:281
+msgid "Select page"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:50
+#: ../PressGrid/framework/includes/admin/post_format.php:157
+msgid "Add video embed"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:59
+#: ../PressGrid/framework/includes/admin/post_format.php:168
+msgid "Is Audio Embedded?"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:65
+#: ../PressGrid/framework/includes/admin/post_format.php:178
+msgid "Post format audio url here"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:69
+#: ../PressGrid/framework/includes/admin/post_format.php:185
+msgid ""
+"Please upload only MP3 file, copy and paste audio url on the field. Insert "
+"into button doen't work, because uploader can work with only images."
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:73
+#: ../PressGrid/framework/includes/admin/post_format.php:189
+msgid "Add audio embed"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:82
+#: ../PressGrid/framework/includes/admin/post_format.php:201
+msgid "Status ULR"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:85
+#: ../PressGrid/framework/includes/admin/post_format.php:206
+msgid ""
+"Please provide here Twitter or Instagram url. Also you can put here some "
+"oEmbed links those provided for <a href=\"http://codex.wordpress.org/"
+"Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F\" target=\"_blank"
+"\">WordPress embed</a>"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:92
+#: ../PressGrid/framework/includes/admin/post_format.php:216
+msgid "Quote author"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:98
+#: ../PressGrid/framework/includes/admin/post_format.php:222
+#: ../twentyeleven/content-link.php:17 ../twentytwelve/content-link.php:12
+msgid "Link"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:104
+#: ../PressGrid/framework/includes/admin/post_format.php:137
+#: ../PressGrid/framework/includes/admin/post_format.php:228
+#: ../PressGrid/framework/includes/admin/post_format.php:264
+msgid "Link target"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:116
+#: ../PressGrid/framework/includes/admin/post_format.php:240
+msgid "Quote text"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:125
+#: ../PressGrid/framework/includes/admin/post_format.php:252
+msgid "Link name"
+msgstr ""
+
+#: ../PressGrid/framework/includes/admin/post_format.php:131
+#: ../PressGrid/framework/includes/admin/post_format.php:258
+msgid "Link URL"
+msgstr ""
+
+#: ../PressGrid/framework/includes/metaboxes/slide_meta.php:129
+msgid "Add another"
+msgstr ""
+
+#: ../PressGrid/framework/includes/metaboxes/slide_meta.php:155
+msgid "Slide image"
+msgstr ""
+
+#: ../PressGrid/framework/widgets/widget_custom_options.php:15
+msgid "Show/hide widget"
+msgstr ""
+
+#: ../SCRN/archive.php:37 ../SCRN/category.php:39 ../SCRN/page-full.php:20
+#: ../SCRN/page-template-blog.php:32 ../SCRN/page.php:18 ../SCRN/single.php:17
+#: ../SCRN/tag.php:39
+msgid "Posted on"
+msgstr ""
+
+#: ../SCRN/archive.php:63 ../SCRN/category.php:64 ../SCRN/index.php:148
+#: ../SCRN/page-full.php:34 ../SCRN/page-template-blog.php:56
+#: ../SCRN/page.php:42 ../SCRN/single.php:51 ../SCRN/tag.php:65
+msgid "All Rights Reserved"
+msgstr ""
+
+#: ../SCRN/archive.php:63 ../SCRN/category.php:64 ../SCRN/index.php:148
+#: ../SCRN/page-full.php:34 ../SCRN/page-template-blog.php:56
+#: ../SCRN/page.php:42 ../SCRN/single.php:51 ../SCRN/tag.php:65
+msgid "designed by "
+msgstr ""
+
+#: ../SCRN/footer.php:50
+msgid "Navigate to..."
+msgstr ""
+
+#: ../SCRN/index.php:83
+msgid "Contact"
+msgstr ""
+
+#: ../SCRN/index.php:98
+msgid "<b>Thank you!</b> I have received your message."
+msgstr ""
+
+#: ../SCRN/index.php:102
+msgid "name"
+msgstr ""
+
+#: ../SCRN/index.php:105
+msgid "email"
+msgstr ""
+
+#: ../SCRN/index.php:108
+msgid "message"
+msgstr ""
+
+#: ../SCRN/index.php:111
+msgid "send"
+msgstr ""
+
+#: ../SCRN/index.php:121
+msgid "Contact Info"
+msgstr ""
+
+#: ../SCRN/single-portfolio.php:36
+msgid "Close project"
+msgstr ""
+
+#: ../tg/archive-portfolio.php:59 ../tg/single-portfolio.php:70
+#: ../tg/inc/page-builder/blocks/aq-portfolio-block.php:80
+#: ../tg/inc/page-builder/blocks/aq-portfolio-filter-block.php:133
+msgid "Client"
+msgstr ""
+
+#: ../tg/comments.php:41
+msgid "You might have left one of the fields blank, or be posting too quickly"
+msgstr ""
+
+#: ../tg/comments.php:45 ../tg/comments.php:47
+msgid "Thanks for your comment. We appreciate your response."
+msgstr ""
+
+#: ../tg/footer.php:12
+msgid "Visit our Twitter Account"
+msgstr ""
+
+#: ../tg/footer.php:13
+msgid "Visit our Facebook Account"
+msgstr ""
+
+#: ../tg/footer.php:14
+msgid "Visit our Dribbble Account"
+msgstr ""
+
+#: ../tg/footer.php:15
+msgid "Visit our Flickr Account"
+msgstr ""
+
+#: ../tg/footer.php:16
+msgid "Visit our skype Account"
+msgstr ""
+
+#: ../tg/footer.php:17
+msgid "Visit our Vimeo Account"
+msgstr ""
+
+#: ../tg/footer.php:18
+msgid "Visit our Google+ Account"
+msgstr ""
+
+#: ../tg/footer.php:19
+msgid "Send Us an Email"
+msgstr ""
+
+#: ../tg/footer.php:27
+msgid "Back to Top"
+msgstr ""
+
+#: ../tg/functions.php:222 ../tg/single-portfolio.php:16 ../tg/single.php:21
+msgid "Posted"
+msgstr ""
+
+#: ../tg/loop.php:8 ../tg/search.php:22
+#: ../tg/inc/page-builder/blocks/aq-blog-block.php:36
+msgid "Posted: "
+msgstr ""
+
+#: ../tg/search.php:11
+msgid "Your Search Found "
+msgstr ""
+
+#: ../tg/search.php:11
+msgid " Item"
+msgstr ""
+
+#: ../tg/search.php:11
+msgid " Items"
+msgstr ""
+
+#: ../tg/search.php:12
+msgid "Search Results For: "
+msgstr ""
+
+#: ../tg/search.php:33
+msgid "Whoops!"
+msgstr ""
+
+#: ../tg/search.php:34
+msgid ""
+"It seems your search returned 0 results, try searching again for a different "
+"keyword."
+msgstr ""
+
+#: ../tg/search.php:39
+msgid "Enter your new search then hit \"Enter\""
+msgstr ""
+
+#: ../tg/searchform.php:2
+msgid "Search..."
+msgstr ""
+
+#: ../tg/sidebar.php:3
+msgid "Post Tags"
+msgstr ""
+
+#: ../tg/sidebar.php:10
+msgid "Post Categories"
+msgstr ""
+
+#: ../tg/single-portfolio.php:17 ../tg/single.php:22
+msgid "By"
+msgstr ""
+
+#: ../tg/single-portfolio.php:18 ../tg/single.php:24
+msgid "Comments"
+msgstr ""
+
+#: ../tg/single-portfolio.php:50
+msgid "Share This!"
+msgstr ""
+
+#: ../tg/single-portfolio.php:62
+msgid "Contact Us"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-blockquote-block.php:42
+#: ../tg/inc/page-builder/blocks/aq-categories-tags-block.php:45
+#: ../tg/inc/page-builder/blocks/aq-list-block.php:48
+#: ../tg/inc/page-builder/blocks/aq-section-intro-block.php:43
+#: ../tg/inc/page-builder/blocks/aq-section-intro-blockquote-block.php:43
+#: ../tg/inc/page-builder/blocks/aq-text-block.php:39
+#: ../tg/inc/page-builder/blocks/aq-text-full-block.php:39
+#: ../tg/inc/page-builder/blocks/aq-text-half-block.php:39
+#: ../tg/inc/page-builder/blocks/aq-text-three-quarters-block.php:39
+msgid "Title (optional)"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-blockquote-block.php:48
+#: ../tg/inc/page-builder/blocks/aq-categories-tags-block.php:59
+#: ../tg/inc/page-builder/blocks/aq-contact-form-block.php:38
+#: ../tg/inc/page-builder/blocks/aq-image-block.php:61
+#: ../tg/inc/page-builder/blocks/aq-image-upload-block.php:63
+#: ../tg/inc/page-builder/blocks/aq-list-block.php:54
+#: ../tg/inc/page-builder/blocks/aq-map-block.php:43
+#: ../tg/inc/page-builder/blocks/aq-portfolio-filter-block.php:46
+#: ../tg/inc/page-builder/blocks/aq-search-block.php:47
+#: ../tg/inc/page-builder/blocks/aq-section-intro-block.php:55
+#: ../tg/inc/page-builder/blocks/aq-section-intro-blockquote-block.php:55
+#: ../tg/inc/page-builder/blocks/aq-text-block.php:53
+#: ../tg/inc/page-builder/blocks/aq-text-full-block.php:53
+#: ../tg/inc/page-builder/blocks/aq-text-half-block.php:53
+#: ../tg/inc/page-builder/blocks/aq-text-three-quarters-block.php:53
+#: ../tg/inc/page-builder/blocks/aq-twitter-block.php:43
+msgid "Place this element under which section?"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-blockquote-block.php:54
+#: ../tg/inc/page-builder/blocks/aq-section-intro-blockquote-block.php:61
+#: ../twentyeleven/content-quote.php:15
+msgid "Quote"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-blockquote-block.php:60
+#: ../tg/inc/page-builder/blocks/aq-section-intro-blockquote-block.php:67
+msgid "Author"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-blog-block.php:44
+msgid "Load more posts ..."
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-categories-tags-block.php:52
+msgid "Categories or Tags?"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-categories-tags-block.php:66
+#: ../tg/inc/page-builder/blocks/aq-list-block.php:60
+#: ../tg/inc/page-builder/blocks/aq-search-block.php:54
+#: ../tg/inc/page-builder/blocks/aq-section-intro-block.php:67
+#: ../tg/inc/page-builder/blocks/aq-section-intro-blockquote-block.php:73
+#: ../tg/inc/page-builder/blocks/aq-text-block.php:60
+#: ../tg/inc/page-builder/blocks/aq-text-full-block.php:60
+#: ../tg/inc/page-builder/blocks/aq-text-half-block.php:60
+#: ../tg/inc/page-builder/blocks/aq-text-three-quarters-block.php:60
+msgid "Border Color"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-clients-block.php:38
+msgid "client"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-image-block.php:40
+msgid "Image URL (Required)"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-image-block.php:47
+#: ../tg/inc/page-builder/blocks/aq-image-upload-block.php:49
+msgid "Image Alt Text"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-image-block.php:54
+#: ../tg/inc/page-builder/blocks/aq-image-upload-block.php:56
+msgid "Link? (Optional) - Requires http://"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-image-upload-block.php:42
+msgid "Upload an Image?"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-list-block.php:76
+msgid "Add New"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-list-block.php:92
+msgid "Open / Close"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-list-block.php:99
+msgid "List Item"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-map-block.php:36
+msgid "Address"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-portfolio-block.php:92
+#: ../tg/inc/page-builder/blocks/aq-portfolio-filter-block.php:146
+msgid "Load more projects ..."
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-portfolio-filter-block.php:53
+msgid "Filter this portfolio block?"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-section-intro-block.php:49
+#: ../tg/inc/page-builder/blocks/aq-section-intro-blockquote-block.php:49
+msgid "Intro Number (optional)"
+msgstr ""
+
+#: ../tg/inc/page-builder/blocks/aq-twitter-block.php:36
+msgid "Twitter Username e.g envato"
+msgstr ""
+
+#: ../tg/inc/page-builder/classes/class-aq-page-builder.php:649
+msgid "Choose Your Page Template"
+msgstr ""
+
+#: ../tg/inc/page-builder/view/view-settings-page.php:125
+msgid "Available Blocks"
+msgstr ""
+
+#: ../tg/inc/page-builder/view/view-settings-page.php:125
+msgid "Deleting"
+msgstr ""
+
+#: ../tg/inc/page-builder/view/view-settings-page.php:130
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr ""
+
+#: ../tg/inc/page-builder/view/view-settings-page.php:197
+msgid "Template Name"
+msgstr ""
+
+#: ../twentyeleven/404.php:17 ../twentytwelve/404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../twentyeleven/comments.php:40 ../twentyeleven/comments.php:60
+#: ../twentytwelve/comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: ../twentyeleven/content-aside.php:17
+msgid "Aside"
+msgstr ""
+
+#: ../twentyeleven/content-gallery.php:17
+msgid "Gallery"
+msgstr ""
+
+#: ../twentyeleven/content-status.php:16
+msgid "Status"
+msgstr ""
+
+#: ../twentyeleven/functions.php:453 ../twentyeleven/single.php:18
+#: ../twentytwelve/functions.php:254 ../twentytwelve/single.php:20
+msgid "Post navigation"
+msgstr ""
+
+#: ../twentyeleven/header.php:131
+msgid "Skip to primary content"
+msgstr ""
+
+#: ../twentyeleven/header.php:132
+msgid "Skip to secondary content"
+msgstr ""
+
+#: ../twentyeleven/image.php:18
+msgid "Image navigation"
+msgstr ""
+
+#: ../twentyeleven/showcase.php:77
+msgid "Featured Post"
+msgstr ""
+
+#: ../twentyeleven/showcase.php:160
+msgid "Recent Posts"
+msgstr ""
+
+#: ../twentyeleven/sidebar.php:26
+msgid "Meta"
+msgstr ""
+
+#: ../twentyeleven/inc/widgets.php:160
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../twentytwelve/404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../twentytwelve/content-none.php:17 ../twentytwelve/index.php:53
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../twentytwelve/content.php:14
+msgid "Featured post"
+msgstr ""
+
+#: ../twentytwelve/header.php:44
+msgid "Menu"
+msgstr ""
+
+#: ../twentytwelve/header.php:45
+msgid "Skip to content"
+msgstr ""
+
+#: ../twentytwelve/index.php:38
+msgid "No posts to display"
+msgstr ""
+
+#: ../Velo/not-found.php:3
+msgid "Embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../Velo/not-found.php:5
+msgid ""
+"We could not find what you were looking for. Perhaps searching can help:"
+msgstr ""
+
+#: ../Velo/part-article.php:38
+msgid "Permalink"
+msgstr ""
+
+#: ../Velo/part-portfolio.php:49
+msgid "Browse all"
+msgstr ""
+
+#: ../Velo/part-similar.php:31
+msgid "You might be also interested in.."
+msgstr ""
+
+#: ../Velo/view-article.php:47
+msgid "Archive"
+msgstr ""
+
+#: ../Velo/includes/commentlist.php:25
+msgid "This comment has not been approved yet."
+msgstr ""
+
+#: ../Velo/includes/shortcodes.php:138
+msgid "To"
+msgstr ""
+
+#: ../Velo/includes/shortcodes.php:150
+msgid "From"
+msgstr ""
+
+#: ../Velo/includes/shortcodes.php:162
+msgid "Subject"
+msgstr ""
+
+#: ../Velo/includes/widget-tweets.php:33
+msgid "Widget Title"
+msgstr ""
+
+#: ../Velo/includes/widget-tweets.php:43
+msgid "Number"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:3
+msgid "Site Icon"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:19
+msgid "The icon displayed in the \"Home Screen\" of Apple iOS Devices."
+msgstr ""
+
+#: ../Velo/includes/config/options.php:43
+msgid "Pages Foot"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:51
+msgid "The text to display at the end of every page."
+msgstr ""
+
+#: ../Velo/includes/config/options.php:55
+msgid "Analytics"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:63
+msgid "The Tracking Code of your favorite Analytics Web Service."
+msgstr ""
+
+#: ../Velo/includes/config/options.php:67
+#: ../Velo/includes/metabox/metabox-section-fill.php:28
+msgid "Portfolio"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:75
+msgid ""
+"Tick this option to show Portfolio Items using the same tags while viewing a "
+"single Item."
+msgstr ""
+
+#: ../Velo/includes/config/options.php:83
+msgid "Mail Form"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:91
+msgid "The address that will receive messages sent through the mail form."
+msgstr ""
+
+#: ../Velo/includes/config/options.php:91
+#: ../Velo/includes/config/options.php:145
+msgid "See Documentation for usage of Shortcode."
+msgstr ""
+
+#: ../Velo/includes/config/options.php:95
+msgid "Social Networks"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:145
+msgid "The links to assign to social links used by the theme."
+msgstr ""
+
+#: ../Velo/includes/config/options.php:153
+msgid "Layout Colors"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:161
+msgid ""
+"You can set a different background color to every page while editing them."
+msgstr ""
+
+#: ../Velo/includes/config/options.php:181
+msgid "Layout Details"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:189
+msgid "Use streamlined look (without borders)."
+msgstr ""
+
+#: ../Velo/includes/config/options.php:197
+msgid "Custom Code"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:215
+msgid "Theme"
+msgstr ""
+
+#: ../Velo/includes/config/options.php:223
+msgid ""
+"Tick this option if you wish to be notified when a new version of this theme "
+"becomes available. The notification will be available under the \"Dashboard"
+"\" section."
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-gallery.php:5
+#: ../Velo/includes/metabox/metabox-link.php:7
+msgid "Select Images"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-gallery.php:6
+#: ../Velo/includes/metabox/metabox-link.php:8
+#: ../Velo/openframe/panel/includes/template.php:44
+msgid "Empty"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-layout.php:3
+msgid "Background Color"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-link.php:3
+msgid "Lightbox"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-link.php:16
+msgid "Page Address"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:7
+msgid "Use section as Cover"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:10
+msgid "Covers are intersections excluded from the Navigation Menu."
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:15
+msgid "Use section as Stream"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:18
+msgid ""
+"Using this option you can display existing content in your section, such as "
+"a Portfolio or a Blog article."
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:22
+msgid "Use this section a stream of:"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:34
+msgid "Article"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:40
+msgid "Pick items from:"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:48
+#: ../Velo/includes/metabox/metabox-section-icon.php:7
+msgid "&ndash; Select &ndash;"
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:61
+msgid "No Portfolio has been found."
+msgstr ""
+
+#: ../Velo/includes/metabox/metabox-section-fill.php:71
+msgid "&ndash; Latest &ndash;"
+msgstr ""
+
+#: ../Velo/openframe/includes/update.php:39
+msgid "Update"
+msgstr ""
+
+#: ../Velo/openframe/includes/update.php:40
+msgid "Changes"
+msgstr ""
+
+#: ../Velo/openframe/includes/update.php:43
+msgid "How do I update?"
+msgstr ""
+
+#: ../Velo/openframe/includes/update.php:45
+msgid "Your themes path is:"
+msgstr ""
+
+#: ../Velo/openframe/panel/display.php:3
+msgid "Settings Panel"
+msgstr ""
+
+#: ../Velo/openframe/panel/display.php:8
+msgid "Saved!"
+msgstr ""
+
+#: ../Velo/openframe/panel/display.php:8
+msgid "Wait a sec.."
+msgstr ""
+
+#: ../Velo/openframe/panel/display.php:8
+msgid "Save Settings"
+msgstr ""
+
+#: ../Velo/openframe/panel/includes/template.php:43
+msgid "Select Image"
+msgstr ""
