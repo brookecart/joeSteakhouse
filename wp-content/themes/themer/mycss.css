@@ -1,0 +1,16 @@
+html, body, .view {
+    height: 100%;
+}
+body {
+    background-image: url(../../uploads/2017/03/big-photo-min.jpg);
+    background-color: aqua;
+}
+
+.view {
+    background: url("../../uploads/2017/03/big-photo-min-700x467.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+

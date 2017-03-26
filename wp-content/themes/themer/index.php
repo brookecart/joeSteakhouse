@@ -11,12 +11,6 @@
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container container-fluid">
-                        <h1>hello</h1>
-                    </div>
-                </div>
-                
 				<?php the_content(); ?>
 
 				<!-- <?php comments_template( '', true ); // Remove if you don't want comments ?> -->
