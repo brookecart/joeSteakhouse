@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Your Posts Manually v1.5\n"
+"POT-Creation-Date: 2014-10-10 13:43+0100\n"
+"PO-Revision-Date: 2014-10-10 13:43+0100\n"
+"Last-Translator: Rolf van Gelder <info@cagewebdev.com>\n"
+"Language-Team: CAGE Web Design <info@cagewebdev.com>\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: order-your-posts-manually.php:38 order-your-posts-manually.php:422
+msgid "Order Your Posts Manually"
+msgstr "Order Your Posts Manually"
+
+#: order-your-posts-manually.php:52
+msgid "Order Your Posts Manually Options"
+msgstr "Order Your Posts Manually opcije"
+
+#: order-your-posts-manually.php:94
+msgid "SORT ORDER SAVED!"
+msgstr "REDOSLED SAČUVAN"
+
+#: order-your-posts-manually.php:128
+msgid "creation date"
+msgstr "datum kreiranja"
+
+#: order-your-posts-manually.php:133
+msgid "modification date"
+msgstr "datum modifikovanja"
+
+#: order-your-posts-manually.php:263
+msgid "sort type"
+msgstr "vrsta sortiranja"
+
+#: order-your-posts-manually.php:265 order-your-posts-manually.php:425
+msgid "Version"
+msgstr "verzija"
+
+#: order-your-posts-manually.php:266 order-your-posts-manually.php:426
+msgid "Author"
+msgstr "Autor"
+
+#: order-your-posts-manually.php:266 order-your-posts-manually.php:426
+msgid "The Netherlands"
+msgstr "Holandija"
+
+#: order-your-posts-manually.php:269 order-your-posts-manually.php:434
+msgid "WARNING"
+msgstr "UPOZORENJE"
+
+#: order-your-posts-manually.php:270 order-your-posts-manually.php:435
+msgid ""
+"Running this plugin will actually change the CREATION- or MODIFICATION dates "
+"of your posts in the database, to change the display order."
+msgstr ""
+"Pokretanje ovog plugin-a promeniće datume kreiranja ili datume modifikovanja "
+"vaših postova u bazi podataka, da bi se promenio redosled prikazivanja."
+
+#: order-your-posts-manually.php:271 order-your-posts-manually.php:436
+msgid "It will swap some of the dates."
+msgstr "Neki datumi će nestati."
+
+#: order-your-posts-manually.php:272 order-your-posts-manually.php:437
+msgid ""
+"So, if you think the EXACT DATES of when a post was created and / or "
+"modified are more important than the order of the posts: DON'T USE THIS "
+"PLUGIN!"
+msgstr ""
+"Ako mislite da su TAČNI DATUMI kreiranja ili modifikovanja postova važniji "
+"od redosleda prikazivanja postova, NEMOJTE KORISTITI OVAJ PLUGIN!"
+
+#: order-your-posts-manually.php:274
+msgid "STICKY POSTS"
+msgstr "STICKY POSTOVI"
+
+#: order-your-posts-manually.php:299
+msgid "REGULAR POSTS"
+msgstr "REGULARNI POSTOVI"
+
+#: order-your-posts-manually.php:301
+msgid "Drag and drop the posts to change the display order!"
+msgstr ""
+"Prevucite i pozicionirajte postove da biste im promenili redosled "
+"prikazivanja!"
+
+#: order-your-posts-manually.php:302
+msgid ""
+"After changing the order, don't forget to click the <strong>SAVE CHANGES</"
+"strong> button to actually update the posts"
+msgstr ""
+"Nakon promene redosleda, ne zaboravite da kliknete na taster <strong>SAČUVAJ "
+"IZMENE</strong> da biste stvarno ažurirali postove. "
+
+#: order-your-posts-manually.php:304 order-your-posts-manually.php:331
+msgid "SAVE CHANGES"
+msgstr "SAČUVAJ IZMENE"
+
+#: order-your-posts-manually.php:306 order-your-posts-manually.php:333
+msgid "RELOAD POSTS"
+msgstr "PONOVO OTPREMI POSTOVE"
+
+#: order-your-posts-manually.php:405
+msgid "Order Your Posts Manually OPTIONS UPDATED!"
+msgstr "Order Your Posts Manually OPCIJE AŽURIRANE"
+
+#: order-your-posts-manually.php:423
+msgid ""
+"With this plugin your visually can change the order of the posts for when "
+"they will be displayed"
+msgstr ""
+"Ovim plugin-om možete promeniti vizuelni redosled kad treba da prikažete "
+"postove"
+
+#: order-your-posts-manually.php:427
+msgid "Website"
+msgstr "Website"
+
+#: order-your-posts-manually.php:428
+msgid "Plugin page"
+msgstr "Stranica za plugin"
+
+#: order-your-posts-manually.php:429
+msgid "Download page"
+msgstr "Preuzmi stranicu"
+
+#: order-your-posts-manually.php:433
+msgid "Order Your Posts Manually - Options"
+msgstr "Order Your Posts Manually - Opcije"
+
+#: order-your-posts-manually.php:438
+msgid ""
+"Per default WordPress orders the posts using the <strong>CREATION date</"
+"strong> (also known as '<strong>post_date</strong>'). Last created posts "
+"first."
+msgstr ""
+"WordPress po standardu raspoređuje postove prema <strong>DATUMU KREIRANJA </"
+"strong> (poznatom kao '<strong>datum_posta</strong>'). Prvo se prikazuju "
+"poslednji kreirani postovi."
+
+#: order-your-posts-manually.php:439
+msgid ""
+"Some site designers (including myself) prefer the ordering of the posts "
+"using the <strong>MODIFICATION date</strong> (go to <a href=\"http://web20bp."
+"com/kb/wordpress-sort-posts-on-modified-date/\" target=\"_blank\">this page</"
+"a> to see how to do that).<br />So, last modified posts will show up first."
+msgstr ""
+"Neki web dizajneri (uključujući i mene) više vole da raspoređuju postove "
+"prema <strong>DATUMU MODIFIKOVANJA</strong> (idite na <a href=\"http://"
+"web20bp.com/kb/wordpress-sort-posts-on-modified-date/\" target=\"_blank"
+"\">ovu stranicu</a> da biste videli kako se to radi).<br />Dakle, prvo će "
+"biti prikazani postovi koji su poslednji modifikovani."
+
+#: order-your-posts-manually.php:440
+msgid ""
+"If you belong to the second category (<strong>MODIFICATION date</strong>) "
+"select the second option in the drop down box below!"
+msgstr ""
+"Ako pripadate drugoj kategoriji (<strong>DATUM MODIFIKOVANJA</strong>), "
+"odaberite drugu opciju u opadajućem meniju! "
+
+#: order-your-posts-manually.php:444
+msgid "use CREATION DATES of the posts"
+msgstr "koristi DATUME KREIRANJA postova"
+
+#: order-your-posts-manually.php:445
+msgid "use MODIFICATION DATES of the posts"
+msgstr "koristi DATUME MODIFIKOVANJA postova"
+
+#: order-your-posts-manually.php:451
+msgid "Number of posts to show per page"
+msgstr "Broj postova za prikazivanje po stranici"
+
+#: order-your-posts-manually.php:453
+msgid "show ALL posts at once"
+msgstr "prikaži SVE postove odjednom"
+
+#: order-your-posts-manually.php:466
+msgid "SAVE OPTIONS"
+msgstr "SAČUVAJ IZMENE"
+
+#~ msgid "Order Your Posts Options"
+#~ msgstr "Order Your Posts Opties"
+
+#~ msgid "Order your Posts Manually"
+#~ msgstr "Order Posts Your Manually"
+
+#~ msgid "Order Posts Manually"
+#~ msgstr "Order Posts Manually"
+
+#~ msgid "WARNING!!!"
+#~ msgstr "WAARSCHUWING!!!"

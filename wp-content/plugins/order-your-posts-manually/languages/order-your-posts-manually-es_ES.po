@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Your Posts Manually v1.5\n"
+"POT-Creation-Date: 2014-10-20 20:44+0100\n"
+"PO-Revision-Date: 2014-10-20 20:44+0100\n"
+"Last-Translator: Rolf van Gelder <info@cagewebdev.com>\n"
+"Language-Team: CAGE Web Design <info@cagewebdev.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: order-your-posts-manually.php:38 order-your-posts-manually.php:422
+msgid "Order Your Posts Manually"
+msgstr "Ordene Sus Posts Manualmente"
+
+#: order-your-posts-manually.php:52
+msgid "Order Your Posts Manually Options"
+msgstr "Opciones de Ordene Sus Posts Manualmente"
+
+#: order-your-posts-manually.php:94
+msgid "SORT ORDER SAVED!"
+msgstr "¡ORDEN DE CLASIFICACIÓN ORDENADO!"
+
+#: order-your-posts-manually.php:128
+msgid "creation date"
+msgstr "fecha de creación"
+
+#: order-your-posts-manually.php:133
+msgid "modification date"
+msgstr "fecha de modificación"
+
+#: order-your-posts-manually.php:263
+msgid "sort type"
+msgstr "tipo de ordenamiento"
+
+#: order-your-posts-manually.php:265 order-your-posts-manually.php:425
+msgid "Version"
+msgstr "Versión"
+
+#: order-your-posts-manually.php:266 order-your-posts-manually.php:426
+msgid "Author"
+msgstr "Autor"
+
+#: order-your-posts-manually.php:266 order-your-posts-manually.php:426
+msgid "The Netherlands"
+msgstr "Países Bajos"
+
+#: order-your-posts-manually.php:269 order-your-posts-manually.php:434
+msgid "WARNING"
+msgstr "ADVERTENCIA"
+
+#: order-your-posts-manually.php:270 order-your-posts-manually.php:435
+msgid ""
+"Running this plugin will actually change the CREATION- or MODIFICATION dates "
+"of your posts in the database, to change the display order."
+msgstr ""
+"Ejecutar este plugin cambiará las fechas de CREACIÓN o MODIFICACIÓN de sus "
+"posts en la base de datos, para cambiar el orden de mostrado."
+
+#: order-your-posts-manually.php:271 order-your-posts-manually.php:436
+msgid "It will swap some of the dates."
+msgstr "Intercambiará algunas de las fechas."
+
+#: order-your-posts-manually.php:272 order-your-posts-manually.php:437
+msgid ""
+"So, if you think the EXACT DATES of when a post was created and / or "
+"modified are more important than the order of the posts: DON'T USE THIS "
+"PLUGIN!"
+msgstr ""
+"Por tanto, si piensa que las FECHAS EXACTAS de cuando un post fue creado y/o "
+"modificado son más importantes que el orden de los posts: ¡NO UTILICE ESTE "
+"PLUGIN!"
+
+#: order-your-posts-manually.php:274
+msgid "STICKY POSTS"
+msgstr "POST PEGAJOSOS"
+
+#: order-your-posts-manually.php:299
+msgid "REGULAR POSTS"
+msgstr "POST REGULARES"
+
+#: order-your-posts-manually.php:301
+msgid "Drag and drop the posts to change the display order!"
+msgstr "¡Suelte y arrastre los posts para cambiar el orden de mostrado!"
+
+#: order-your-posts-manually.php:302
+msgid ""
+"After changing the order, don't forget to click the <strong>SAVE CHANGES</"
+"strong> button to actually update the posts"
+msgstr ""
+"Luego de cambiar el orden, no olvide hacer clic en el botón <strong>SALVAR "
+"CAMBIOS</strong> para actualizar los posts"
+
+#: order-your-posts-manually.php:304 order-your-posts-manually.php:331
+msgid "SAVE CHANGES"
+msgstr "SALVAR CAMBIOS"
+
+#: order-your-posts-manually.php:306 order-your-posts-manually.php:333
+msgid "RELOAD POSTS"
+msgstr "RECARGAR POSTS"
+
+#: order-your-posts-manually.php:405
+msgid "Order Your Posts Manually OPTIONS UPDATED!"
+msgstr "¡OPCIONES DE Ordene Sus Posts Manualmente ACTUALIZADAS!"
+
+#: order-your-posts-manually.php:423
+msgid ""
+"With this plugin your visually can change the order of the posts for when "
+"they will be displayed"
+msgstr ""
+"Con este plugin su parte visual puede cambiar el orden de los posts para "
+"cuando ellos sean mostrados"
+
+#: order-your-posts-manually.php:427
+msgid "Website"
+msgstr "Sitio Web"
+
+#: order-your-posts-manually.php:428
+msgid "Plugin page"
+msgstr "Página del plugin"
+
+#: order-your-posts-manually.php:429
+msgid "Download page"
+msgstr "Página de descarga"
+
+#: order-your-posts-manually.php:433
+msgid "Order Your Posts Manually - Options"
+msgstr "Opciones - Ordene Sus Posts Manualmente"
+
+#: order-your-posts-manually.php:438
+msgid ""
+"Per default WordPress orders the posts using the <strong>CREATION date</"
+"strong> (also known as '<strong>post_date</strong>'). Last created posts "
+"first."
+msgstr ""
+"Por defecto WorPress ordena los posts utilizando la < strong>fecha de "
+"CREACIÓN</strong> (también conocida como '<strong>post_date</strong>'). Los "
+"últimos posts creados primero."
+
+#: order-your-posts-manually.php:439
+msgid ""
+"Some site designers (including myself) prefer the ordering of the posts "
+"using the <strong>MODIFICATION date</strong> (go to <a href=\"http://web20bp."
+"com/kb/wordpress-sort-posts-on-modified-date/\" target=\"_blank\">this page</"
+"a> to see how to do that).<br />So, last modified posts will show up first."
+msgstr ""
+"Algunos diseñadores de sitio (incluyéndome a mi) prefieren el ordenamiento "
+"de los posts utilizando la <strong>fecha de MODIFICACIÓN</strong> (vaya a <a "
+"href=\"http://web20bp.com/kb/wordpress-sort-posts-on-modified-date/\" target="
+"\"_blank\"> esta página</a> para ver cómo hacer esto). <br /> Por lo tanto, "
+"los posts de última modificación se mostrarán primero."
+
+#: order-your-posts-manually.php:440
+msgid ""
+"If you belong to the second category (<strong>MODIFICATION date</strong>) "
+"select the second option in the drop down box below!"
+msgstr ""
+"Si usted pertenece a la segunda categoría (<strong>fecha de MODIFICACIÓN</"
+"strong>) ¡seleccione la segunda opción en la casilla desplegable debajo!"
+
+#: order-your-posts-manually.php:444
+msgid "use CREATION DATES of the posts"
+msgstr "utilice las FECHAS DE CREACIÓN de los posts"
+
+#: order-your-posts-manually.php:445
+msgid "use MODIFICATION DATES of the posts"
+msgstr "utilice las FECHAS DE MODIFICACIÓN de los posts"
+
+#: order-your-posts-manually.php:451
+msgid "Number of posts to show per page"
+msgstr "Número de posts a mostrar por página"
+
+#: order-your-posts-manually.php:453
+msgid "show ALL posts at once"
+msgstr "mostrar TODOS los posts a la misma vez"
+
+#: order-your-posts-manually.php:466
+msgid "SAVE OPTIONS"
+msgstr "SALVAR OPCIONES"
+
+#~ msgid "Order Your Posts Options"
+#~ msgstr "Order Your Posts Opties"
+
+#~ msgid "Order your Posts Manually"
+#~ msgstr "Order Posts Your Manually"
+
+#~ msgid "Order Posts Manually"
+#~ msgstr "Order Posts Manually"
+
+#~ msgid "WARNING!!!"
+#~ msgstr "WAARSCHUWING!!!"

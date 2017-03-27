@@ -1,0 +1,295 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Your Posts Manually v1.9\n"
+"POT-Creation-Date: 2016-01-25 21:42+0100\n"
+"PO-Revision-Date: 2016-01-25 21:42+0100\n"
+"Last-Translator: Rolf van Gelder <info@cagewebdev.com>\n"
+"Language-Team: CAGE Web Design <info@cagewebdev.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/settings.php:38
+msgid "Order Your Posts Manually SETTINGS UPDATED!"
+msgstr "Order Your Posts Manually INSTELLINGEN GEWIJZIGD!!"
+
+#: admin/settings.php:44
+msgid ""
+"Order Your Posts Manually - change the display order of your posts by "
+"dragging and dropping"
+msgstr ""
+"Order Your Posts Manually - wijzig de weergavevolgorde van de posts door "
+"dragging en dropping"
+
+#: admin/settings.php:48 order-your-posts-manually.php:438
+msgid "Plugin version"
+msgstr "Plugin versie"
+
+#: admin/settings.php:49 order-your-posts-manually.php:439
+msgid "Plugin page"
+msgstr "Plugin pagina"
+
+#: admin/settings.php:50 order-your-posts-manually.php:440
+msgid "Download page"
+msgstr "Download pagina"
+
+#: admin/settings.php:51 order-your-posts-manually.php:441
+msgid "Author"
+msgstr "Auteur"
+
+#: admin/settings.php:52 order-your-posts-manually.php:442
+msgid "Company"
+msgstr "Bedrijf"
+
+#: admin/settings.php:53 order-your-posts-manually.php:443
+msgid "Donation page"
+msgstr "Donatiepagina"
+
+#: admin/settings.php:56
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/settings.php:57
+msgid ""
+"Per default WordPress orders the posts using the <strong>CREATION date</"
+"strong> (also known as '<strong>post_date</strong>'). Last created posts "
+"first."
+msgstr ""
+"Standaard sorteert WordPress de berichten op <strong>CREATIEDATUM</strong> "
+"(ook bekend als '<strong>post_date</strong>'). Het laatst toegevoegde "
+"bericht wordt dus als eerste getoond."
+
+#: admin/settings.php:58
+msgid ""
+"Some site designers (including myself) prefer the ordering of the posts "
+"using the <strong>MODIFICATION date</strong> (go to <a href=\"http://web20bp."
+"com/kb/wordpress-sort-posts-on-modified-date/\" target=\"_blank\">this page</"
+"a> to see how to do that).<br />So, last modified posts will show up first."
+msgstr ""
+"Sommige website ontwikkelaars (inclusief mijzelf) prefereren om de berichten "
+"te sorteren op <strong>WIJZIGINGSDATUM</strong> (kijk <a href=\"http://"
+"web20bp.com/kb/wordpress-sort-posts-on-modified-date/\" target=\"_blank"
+"\">hier</a> om te zien hoe u dat kunt doen)<br />Dus, de laatst gewijzigde "
+"berichten verschijnen bovenaan."
+
+#: admin/settings.php:59
+msgid ""
+"If you belong to the second category (<strong>MODIFICATION date</strong>) "
+"select the second option in the first drop down box below!"
+msgstr ""
+"Als u behoort tot de tweede categorie (<strong>WIJZIGINGSDATUM</strong>) "
+"selecteer hieronder dan de tweede optie."
+
+#: admin/settings.php:65
+msgid "Sorting Field"
+msgstr "Sorteerveld"
+
+#: admin/settings.php:67
+msgid "use CREATION DATES of the posts"
+msgstr "gebruik de CREATIEDATA van de berichten"
+
+#: admin/settings.php:68
+msgid "use MODIFICATION DATES of the posts"
+msgstr "gebruik de WIJZIGINGSDATA van de berichten"
+
+#: admin/settings.php:75
+msgid "Number of posts to show per page"
+msgstr "Aantal berichten dat per pagina getoond moet worden"
+
+#: admin/settings.php:77
+msgid "show ALL posts at once"
+msgstr "toon ALLE beschikbare berichten"
+
+#: admin/settings.php:90
+msgid "Post type to show (default: 'post')"
+msgstr "Te tonen post type (standaard: 'post')"
+
+#: admin/settings.php:94
+msgid "Also allow editors to use this plugin"
+msgstr "Ook editors mogen deze plugin gebruiken"
+
+#: admin/settings.php:106
+msgid "Show drafts"
+msgstr "Toon concepten"
+
+#: admin/settings.php:118
+msgid "Show thumbnails with posts"
+msgstr "Toon thumbnails bij de posts"
+
+#: admin/settings.php:130
+msgid "Thumbnail size (in px)"
+msgstr "Grootte van de thumbnails (in px)"
+
+#: admin/settings.php:146
+msgid "Save Settings"
+msgstr "Bewaar Instellingen"
+
+#: order-your-posts-manually.php:201 order-your-posts-manually.php:213
+msgid "Order Your Posts Manually"
+msgstr "Order Your Posts Manually"
+
+#: order-your-posts-manually.php:266
+msgid "SORT ORDER SAVED!"
+msgstr "PRESENTATIEVOLGORDE OPGESLAGEN!"
+
+#: order-your-posts-manually.php:317
+msgid "creation date"
+msgstr "creatiedatum"
+
+#: order-your-posts-manually.php:322
+msgid "modification date"
+msgstr "wijzigingsdatum"
+
+#: order-your-posts-manually.php:432
+msgid "sort type"
+msgstr "type sortering"
+
+#: order-your-posts-manually.php:434
+msgid "Order Your Posts Manually ("
+msgstr "Order Your Posts Manually ("
+
+#: order-your-posts-manually.php:445
+msgid "STICKY POSTS"
+msgstr "'STICKY' BERICHTEN"
+
+#: order-your-posts-manually.php:445
+msgid "REGULAR POSTS"
+msgstr "NORMALE BERICHTEN"
+
+#: order-your-posts-manually.php:447
+msgid "Drag and drop the posts to change the display order."
+msgstr "Drag en drop de berichten om de volgorde te veranderen."
+
+#: order-your-posts-manually.php:449
+msgid "NOTE: STICKY POSTS will always stay on top!"
+msgstr "LET OP: STICKY BERICHTEN blijven altijd bovenaan!"
+
+#: order-your-posts-manually.php:450
+msgid ""
+"After changing the order, don't forget to click the <strong>SAVE CHANGES</"
+"strong> button to actually update the posts"
+msgstr ""
+"Vergeet niet de <strong>BEWAAR WIJZIGINGEN</strong>-knop te klikken om de "
+"wijzigingen daadwerkelijk op te slaan"
+
+#: order-your-posts-manually.php:452
+msgid "Category"
+msgstr "Categorie"
+
+#: order-your-posts-manually.php:456
+msgid "* ALL *"
+msgstr "* ALLE *"
+
+#: order-your-posts-manually.php:476 order-your-posts-manually.php:518
+msgid "SAVE CHANGES"
+msgstr "BEWAAR WIJZIGINGEN"
+
+#: order-your-posts-manually.php:478 order-your-posts-manually.php:520
+msgid "RELOAD POSTS"
+msgstr "BERICHTEN HERLADEN"
+
+#: order-your-posts-manually.php:503
+msgid "more posts available (scroll down)"
+msgstr "meer berichten beschikbaar (scroll naar beneden)"
+
+#: order-your-posts-manually.php:507
+msgid "all posts loaded"
+msgstr "alle berichten geladen"
+
+#: order-your-posts-manually.php:655
+msgid "No "
+msgstr "Geen"
+
+#: order-your-posts-manually.php:663
+msgid "DRAFT"
+msgstr "CONCEPT"
+
+#~ msgid "more posts available..."
+#~ msgstr "meer berichten beschikbaar..."
+
+#~ msgid "more posts available"
+#~ msgstr "meer berichten beschikbaar"
+
+#~ msgid "WARNING"
+#~ msgstr "WAARSCHUWING"
+
+#~ msgid ""
+#~ "Running this plugin will actually change the CREATION- or MODIFICATION "
+#~ "dates of your posts in the database, to change the display order."
+#~ msgstr ""
+#~ "Als u deze plugin gebruikt worden de CREATIE- en WIJZIGINGS data van de "
+#~ "berichten in de database gewijzigd, om de presentatievolgorde te kunnen "
+#~ "aanpassen."
+
+#~ msgid "It will swap some of the dates."
+#~ msgstr "Sommige data zullen verwisseld worden."
+
+#~ msgid ""
+#~ "So, if you think the EXACT DATES of when a post was created and / or "
+#~ "modified are more important than the order of the posts: DON'T USE THIS "
+#~ "PLUGIN!"
+#~ msgstr ""
+#~ "Dus, als u de EXACTE DATA van de berichten belangrijker vindt dan de "
+#~ "VOLGORDE van de berichten: GEBRUIK DEZE PLUGIN DAN NIET!"
+
+#~ msgid "Allow editors to use this plugin"
+#~ msgstr "Ook editors mogen deze plugin gebruiken"
+
+#~ msgid "Drag and drop the posts to change the display order!"
+#~ msgstr "Drag en drop de berichten om de presentatievolgorde te wijzigen!"
+
+#~ msgid "SAVE SETTINGS"
+#~ msgstr "BEWAAR INSTELLINGEN"
+
+#~ msgid "Version"
+#~ msgstr "Versie"
+
+#~ msgid "The Netherlands"
+#~ msgstr "Nederland"
+
+#~ msgid ""
+#~ "If you belong to the second category (<strong>MODIFICATION date</strong>) "
+#~ "select the second option in the drop down box below!"
+#~ msgstr ""
+#~ "Als u behoort tot de tweede categorie (<strong>WIJZIGINGSDATUM</strong>) "
+#~ "selecteer hieronder dan de tweede optie."
+
+#~ msgid "Order Your Posts Manually Options"
+#~ msgstr "Order Your Posts Manually Opties"
+
+#~ msgid "Order Your Posts Manually OPTIONS UPDATED!"
+#~ msgstr "Order Your Posts Manually OPTIES AANGEPAST!"
+
+#~ msgid ""
+#~ "With this plugin your visually can change the order of the posts for when "
+#~ "they will be displayed"
+#~ msgstr ""
+#~ "Met behulp van deze plugin kunt u op een visuele manier de "
+#~ "presentatievolgorde van de berichten aanpassen"
+
+#~ msgid "Website"
+#~ msgstr "Website"
+
+#~ msgid "Order Your Posts Manually - Options"
+#~ msgstr "Order Your Posts Manually - Opties"
+
+#~ msgid "SAVE OPTIONS"
+#~ msgstr "BEWAAR OPTIES"
+
+#~ msgid "Order Your Posts Options"
+#~ msgstr "Order Your Posts Opties"
+
+#~ msgid "Order your Posts Manually"
+#~ msgstr "Order Posts Your Manually"
+
+#~ msgid "Order Posts Manually"
+#~ msgstr "Order Posts Manually"
+
+#~ msgid "WARNING!!!"
+#~ msgstr "WAARSCHUWING!!!"
