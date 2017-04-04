@@ -1,13 +1,14 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
+                
+                <h1>hello</h1>
 
 				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
+				<!-- <p class="copyright">
+					&copy; <?// php echo date('Y'); ?> Copyright <?//php bloginfo('name'); ?>. <?//php _e('Powered by', 'html5blank'); ?>
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 				</p>
 				<!-- /copyright -->
-
 			</footer>
 			<!-- /footer -->
 
@@ -25,6 +26,21 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
+        <script>
+            function myMap() {
+                var myLatLng = {lat: 36.733104, lng: -119.787595};
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    center: myLatLng,
+                    zoom: 50
+                });
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: "Joe's Steakhouse and Grill"
+                });
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 
 	</body>
 </html>

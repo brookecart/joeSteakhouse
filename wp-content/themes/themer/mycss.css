@@ -1,14 +1,3 @@
-.carousel-item {
-    overflow: hidden;
-}
-.carousel {
-    overflow: hidden;
-}
-.carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-    height: 200px;
-  max-width: none;
+p {
+    color:red;
 }
