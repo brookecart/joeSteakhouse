@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+
+
 	<main role="main">
 		<!-- section -->
 		<section>
@@ -7,6 +9,7 @@
 		<!-- <h1><?php the_title(); ?></h1> -->
             
         <!-- homepage image -->
+<!--
             <div class="carousel slide" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active" style="display: block; width: 100%; height: auto;">
@@ -18,6 +21,7 @@
                 </div>
               </div>
             </div> 
+-->
         <!-- end homepage image -->
             
         <!-- navbar -->
@@ -27,9 +31,9 @@
         <!-- end navbar -->    
 
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-
+            
 			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<article id="post-<?php the_ID(); ?> <?php $post->post_name; ?>" <?php post_class(); ?>>
                 
 				<?php the_content(); ?>
 
