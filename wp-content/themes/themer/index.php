@@ -26,7 +26,7 @@
             
         <!-- navbar -->
             
-            
+            <?php html5blank_nav(); ?>
             
         <!-- end navbar -->    
 

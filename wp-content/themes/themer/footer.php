@@ -4,31 +4,39 @@
                 <!-- FOOTER CONTENT -->
                 <!-- FORM -->
                 
-                <div class="container-fluid" style="background-color: #d6d6d6; padding-top: 50px; padding-bottom: 50px;">
+                <div id="contact">
+                <div class="container-fluid" style="background-color: #424242; padding-top: 50px; padding-bottom: 50px;">
                 <div class="row">
                     
-                    <div class="col-sm-6 align-self-center">
-                        <div class="col-10">
-                        <h3 style="padding-left: 30px;">GET IN TOUCH</h3>
+                    <div class="col-sm-6">
+                        <div class="center-block">
+                        
                         <div class="form-group">
                             
-                            <div class="col-10">
-                            <label style="padding-top: 10px;" for="contactName">Name</label>
-                            <input class="form-control" type="text" id="contactName">
-                            
-                            <label style="padding-top: 10px;" for="contactEmail">Email</label>
-                            <input class="form-control" type="email" id="contactEmail">
-                            
-                            <label style="padding-top: 10px;" for="contactPhone">Phone</label>
-                            <input class="form-control" type="tel" id="contactPhone">
+                            <div class="row justify-content-center">
+                            <div class="col-10">    
+                            <div class="row no-gutters">
+                            <div class="col-xs-8">
+                                <h3>GET IN TOUCH</h3>
+                                <label style="padding-top: 10px;" for="contactName">Name</label>
+                                <input class="form-control" type="text" id="contactName" placeholder="Johnny Appleseed">
+                                
+                                <label style="padding-top: 10px;" for="contactEmail">Email</label>
+                                <input class="form-control" type="email" id="contactEmail" placeholder="johnny@apples.com">
+                                
+                                <label style="padding-top: 10px;" for="contactPhone">Phone</label>
+                                <input class="form-control" type="tel" id="contactPhone" placeholder="(555)-555-5555">
+                            </div>
+                            </div>
                             
                             <label style="padding-top: 10px;" for="contactMsg">Write us a message</label>
-                            <textarea class="form-control" id="contactMsg" rows="3"></textarea>
+                            <textarea class="form-control" id="contactMsg" rows="10"></textarea>
                             
                             <div style="padding: 20px;"></div>
                             
                             <div class="text-center">
-                            <button type="submit" class="btn btn-secondary">Send</button>
+                            <button type="submit" class="btn btn-outline-secondary" style="color: black; border-color: black; font-size: 13px;">SEND</button>
+                            </div>
                             </div>
                             </div>
                                 
@@ -39,21 +47,33 @@
                     <!-- END FORM -->
                     
                     <div class="col-sm-6">
-                        <img style="" class="center-block" src="http://localhost:8080/wp-content/uploads/2017/04/Grill-Face-7.png">
+                        <img style="height: 260px; width: 260px;" class="center-block" src="http://localhost:8080/wp-content/uploads/2017/04/Grill-Face-7.png">
                         
-                        <h6 class="text-center">831 Van Ness Ave.</h6>
-                        <h6 class="text-center">Fresno, CA 93721</h6>
-                        
-                        <h6 class="text-center">559.486.3536</h6>
-                        <h6 class="text-center">info.joessteakhouse@gmail.com</h6>
-                        
-                        <div class="row justify-content-center">
-                         <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                         <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                         <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <div class="pt-5">
+                            <h6 class="text-center">831 Van Ness Ave.</h6>
+                            <h6 class="text-center">Fresno, CA 93721</h6>
                         </div>
                         
-                        <div class="row justify-content-center">
+                        <div class="pt-4">
+                            <h6 class="text-center">559.486.3536</h6>
+                            <h6 class="text-center">info.joessteakhouse@gmail.com</h6>
+                        </div>
+                        
+                        <div class="row justify-content-center pt-4">
+                            <div class="col-1 text-center">
+                                <a href="#" target="_blank"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
+                            </div>
+                            
+                            <div class="col-1 text-center">
+                                <a href="#" target="_blank"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
+                            </div>
+                            
+                            <div class="col-1 text-center">
+                                <a href="#" target="_blank"><i class="fa fa-3x fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="row justify-content-center pt-5">
                         <p class="copyright">
                             &copy; <?// php echo date('Y'); ?> Copyright <?//php bloginfo('name'); ?>. <?//php _e('Powered by', 'html5blank'); ?>
                             <a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
@@ -63,6 +83,7 @@
                     </div>
                     
                 </div> 
+                </div>
                 </div>
                 
                 

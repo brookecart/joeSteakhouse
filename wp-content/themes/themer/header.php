@@ -17,12 +17,20 @@
 		<?php wp_head(); ?>
         
         <script src="https://use.fontawesome.com/002d370eca.js"></script>
+        <script type="text/javascript" src="js/smoothscroll.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
         // conditionizr.com
         // configure environment tests
         conditionizr.config({
             assets: '<?php echo get_template_directory_uri(); ?>',
             tests: {}
+        });
+            
+        $( 'ul.nav').find('a').click(function(){
+           var $href = $(this).attr('href');
+            var $anchor = $('#'+$href).offset();
+            window.scrollTo($anchor.left,$anchor.top);
+            return false;
         });
         </script>
 
@@ -44,12 +52,6 @@
                     </div> -->
 					<!-- /logo -->
 
-					<!-- nav -->
-					<!-- <nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav> -->
-					<!-- /nav -->
-
 			<!-- </header> -->
 			<!-- /header -->
         
@@ -57,25 +59,52 @@
 		<!-- section -->
 		<section>
 
-		<!-- <h1><?php the_title(); ?></h1> -->
+		<!-- <h1><//?php the_title(); ?></h1> -->
             
         <!-- homepage image -->
+            <div id="navdiv">
             <div class="carousel slide" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active" style="display: block; width: 100%; height: auto;">
-                  <img class="d-block img-fluid" src="http://localhost:8080/wp-content/uploads/2017/03/home-photo-min.png" alt="First slide" style="object-fit: contain;">
-                  <div class="carousel-caption d-none d-md-block" style="top: 45%; bottom: auto;">
-                   <h3>Joe's Steakhouse</h3>
+                  <img class="d-block img-fluid" src="http://localhost:8080/wp-content/uploads/2017/03/home-photo-min.png" alt="Home image" style="object-fit: contain;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <img src="http://localhost:8080/wp-content/uploads/2017/04/Grill-Face-7.png" alt="Grill face logo">
+                    <h3>Joe's Steakhouse</h3>
                     <p>and Grill</p>
                   </div>
                 </div>
               </div>
             </div> 
+            </div>
         <!-- end homepage image -->
             
         <!-- navbar -->
             
-            
+            <nav class="navbar navbar-inverse navbar-static-top" data-spy="affix" data-offset-top="730.2">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                      </button>
+                    </div>
+                <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav" style="display: inline-block; float: none;">
+                        <li><a href="#top">HOME</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#cater">CATERING</a></li>
+                        <li><a href="#history">HISTORY</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                    
+                    <?php html5blank_nav(); ?>
+                    
+                </div>
+            </nav>
+
+
             
             
         <!-- end navbar -->
