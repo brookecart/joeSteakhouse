@@ -18,21 +18,21 @@
                             <div class="row no-gutters">
                             <div class="col-xs-8">
                                 <h3>GET IN TOUCH</h3>
-                                <label style="padding-top: 10px;" for="contactName">Name</label>
+                                <label class="pt10" for="contactName">Name</label>
                                 <input class="form-control" type="text" id="contactName" placeholder="Johnny Appleseed">
                                 
-                                <label style="padding-top: 10px;" for="contactEmail">Email</label>
+                                <label class="pt10" for="contactEmail">Email</label>
                                 <input class="form-control" type="email" id="contactEmail" placeholder="johnny@apples.com">
                                 
-                                <label style="padding-top: 10px;" for="contactPhone">Phone</label>
+                                <label class="pt10" for="contactPhone">Phone</label>
                                 <input class="form-control" type="tel" id="contactPhone" placeholder="(555)-555-5555">
                             </div>
                             </div>
                             
-                            <label style="padding-top: 10px;" for="contactMsg">Write us a message</label>
+                            <label class="pt10" for="contactMsg">Write us a message</label>
                             <textarea class="form-control" id="contactMsg" rows="10"></textarea>
                             
-                            <div style="padding: 20px;"></div>
+                            <div class="p20"></div>
                             
                             <div class="text-center">
                             <button type="submit" class="btn btn-outline-secondary" style="color: black; border-color: black; font-size: 13px;">SEND</button>
@@ -47,7 +47,7 @@
                     <!-- END FORM -->
                     
                     <div class="col-sm-6">
-                        <img style="height: 260px; width: 260px;" class="center-block" src="http://localhost:8080/wp-content/uploads/2017/04/Grill-Face-7.png">
+                        <img class="center-block footer-img" src="http://localhost:8080/wp-content/uploads/2017/04/Grill-Face-7.png">
                         
                         <div class="pt-5">
                             <h6 class="text-center">831 Van Ness Ave.</h6>

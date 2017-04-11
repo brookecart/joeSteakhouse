@@ -100,6 +100,13 @@ function html5blank_header_scripts()
 
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('html5blankscripts'); // Enqueue it!
+               
+        wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/bootstrap/js/bootstrap.js', array( 'jquery' ), '3.0.1', true );
+        wp_enqueue_script( 'bootstrap-js' );
+        
+        wp_register_script('smoothscroll.min.js', get_template_directory_uri() . '/js/smoothscroll.min.js');
+        wp_enqueue_script('smoothscroll.min.js');
+ 
     }
 }
 
@@ -113,8 +120,8 @@ function html5blank_conditional_scripts()
 }
 
 function custom_styles() {
-    wp_register_style( 'mycss', get_template_directory_uri() . 'mycss.css', false, false );
-    wp_enqueue_style( 'mycss' );
+//    wp_register_style( 'mycss', get_template_directory_uri() . 'mycss.css', false, false );
+//    wp_enqueue_style( 'mycss' );
 }
 
 // Load HTML5 Blank styles
@@ -125,12 +132,14 @@ function html5blank_styles()
 
     wp_register_style('html5blank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('html5blank'); // Enqueue it!
-    wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array( 'jquery' ), '3.0.1', true );
-    wp_register_style( 'bootstrap-css', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css', array(), '3.0.1', 'all' );
-    wp_enqueue_script( 'bootstrap-js' );
+    
+    wp_register_style( 'bootstrap-css', get_template_directory_uri() . '/bootstrap/css/bootstrap.css', array(), '3.0.1', 'all' );
+    
     wp_enqueue_style( 'bootstrap-css' );
-    wp_register_script('smoothscroll.min.js', get_template_directory_uri() . '/js/smoothscroll.min.js');
-    wp_enqueue_script('smoothscroll.min.js');
+
+    
+    wp_register_style( 'zcss', get_template_directory_uri() . '/zcss.css', array() );
+    wp_enqueue_style( 'zcss', get_template_directory_uri() . '/zcss.css', array() );
 }
 
 // Register HTML5 Blank Navigation
