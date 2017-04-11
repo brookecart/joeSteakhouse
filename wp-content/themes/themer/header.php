@@ -25,13 +25,11 @@
             assets: '<?php echo get_template_directory_uri(); ?>',
             tests: {}
         });
-            
-        $( 'ul.nav').find('a').click(function(){
-           var $href = $(this).attr('href');
-            var $anchor = $('#'+$href).offset();
-            window.scrollTo($anchor.left,$anchor.top);
-            return false;
-        });
+        </script>
+        <script>
+            jQuery('.nav').affix({
+                offset: {top: 730.2}
+            });
         </script>
 
 	</head>
