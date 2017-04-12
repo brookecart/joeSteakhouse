@@ -6,17 +6,15 @@
                  
                 <div id="contact">
                 <div class="container-fluid" style="background-color: #424242; padding-top: 50px; padding-bottom: 50px;">
-                <div class="row">
-                    
+                <div class="row vdivide">
                     <div class="col-sm-6">
-                        <div class="center-block">
-                            
+                            <div class="row justify-content-center">
                             <div class="col-10">
                                  
                                 <?php ninja_forms_display_form(2) ?>
                                 
                             </div>
-                        </div>
+                            </div>
                     </div>
                   
                     

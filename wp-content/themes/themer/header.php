@@ -65,10 +65,17 @@
                 <div class="carousel-item active" style="display: block; width: 100%; height: auto;">
                   <img class="d-block img-fluid" src="http://localhost:8080/wp-content/uploads/2017/03/home-photo-min.png" alt="Home image" style="object-fit: contain;">
                   <div class="carousel-caption d-none d-md-block">
+                      <div class="row">
+                          
+                        <div class="col-12">
                         <img src="http://localhost:8080/wp-content/uploads/2017/04/Grill-Face-7.png" alt="Grill face logo">
-                        <h3>Joe's</h3>
-                        <h1>STEAKHOUSE</h1>
-                        <p>AND GRILL</p>
+                          </div>
+                        
+                        <div class="col-12">
+                        <img src="http://localhost:8080/wp-content/uploads/2017/04/name.png" alt="Joe's Steakhouse and Grill">
+                        </div>
+                          
+                      </div>
                   </div>
                 </div>
               </div>
