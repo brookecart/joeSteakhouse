@@ -26,14 +26,9 @@
             tests: {}
         });
         </script>
-        <script>
-            jQuery('.nav').affix({
-                offset: {top: 730.2}
-            });
-        </script>
 
 	</head>
-	<body <?php body_class(); ?>>
+	<body data-spy="scroll" data-target="#nav" <?php body_class(); ?>>
 
 		<!-- wrapper -->
 		<!-- <div class="wrapper"> -->
@@ -60,19 +55,20 @@
 		<!-- <h1><//?php the_title(); ?></h1> -->
             
         <!-- homepage image -->
+            <div id="home">
             <div class="carousel slide" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active" style="display: block; width: 100%; height: auto;">
-                  <img class="d-block img-fluid" src="http://localhost:8080/wp-content/uploads/2017/03/home-photo-min.png" alt="Home image" style="object-fit: contain;">
+                  <img class="d-block img-fluid" src="wp-content/themes/themer/img/home-img.png" alt="Home image" style="object-fit: contain;">
                   <div class="carousel-caption d-none d-md-block">
                       <div class="row">
                           
                         <div class="col-12">
-                        <img src="http://localhost:8080/wp-content/uploads/2017/04/Grill-Face-7.png" alt="Grill face logo">
+                        <img src="wp-content/themes/themer/img/white-grill-icon.png" alt="Grill face logo">
                           </div>
                         
                         <div class="col-12">
-                        <img src="http://localhost:8080/wp-content/uploads/2017/04/name.png" alt="Joe's Steakhouse and Grill">
+                        <img src="wp-content/themes/themer/img/name.png" alt="Joe's Steakhouse and Grill">
                         </div>
                           
                       </div>
@@ -80,11 +76,13 @@
                 </div>
               </div>
             </div>
+            </div>
         <!-- end homepage image -->
             
         <!-- navbar -->
             
-            <nav class="navbar navbar-inverse navbar-static-top" data-spy="affix" data-offset-top="730.2">
+            <div id="nav">
+            <nav class="navbar navbar-inverse navbar-static-top navbar-md">
                 <div class="container-fluid">
                     <div class="navbar-header">
                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -95,7 +93,7 @@
                     </div>
                 <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav" style="display: inline-block; float: none;">
-                        <li><a href="#top">HOME</a></li>
+                        <li><a href="#home">HOME</a></li>
                         <li><a href="#menu">MENU</a></li>
                         <li><a href="#cater">CATERING</a></li>
                         <li><a href="#history">HISTORY</a></li>
@@ -107,6 +105,7 @@
                     
                 </div>
             </nav>
+            </div>
             
         <!-- end navbar -->
                 </section>

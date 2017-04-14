@@ -9,7 +9,7 @@
                 <div class="row vdivide">
                     <div class="col-sm-6">
                             <div class="row justify-content-center">
-                            <div class="col-10">
+                            <div class="col-10 cl-b">
                                  
                                 <?php ninja_forms_display_form(2) ?>
                                 
@@ -22,7 +22,7 @@
                     <!-- END FORM -->
                     
                     <div class="col-sm-6">
-                        <img class="center-block footer-img" src="http://localhost:8080/wp-content/uploads/2017/04/Grill-Face-7.png">
+                        <img class="center-block footer-img" src="wp-content/themes/themer/img/grill-icon.png">
                         
                         <div class="pt-5 cl-b fw-300">
                             <h5 class="text-center">831 Van Ness Ave.</h5>
@@ -49,8 +49,8 @@
                         </div>
                         
                         <div class="row justify-content-center pt-5">
-                        <p class="copyright">
-                            &copy; <?// php echo date('Y'); ?> Copyright <?//php bloginfo('name'); ?>. <?//php _e('Powered by', 'html5blank'); ?>
+                        <p class="copyright cl-b">
+                            &copy; <?// php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <br><?php _e('Powered by', 'html5blank'); ?>
                             <a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
                         </p>
                         </div>
@@ -102,7 +102,42 @@
                 });
             }
         </script>
+
+        <!--GOOGLE MAP SCRIPT-->
         <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+        <!--MODAL SCRIPT-->
+        <script>  
+            
+        (function($) {
+            $(".modal-fullscreen").on('show.bs.modal', function () {
+          setTimeout( function() {
+            $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+          }, 0);
+        });   
+        })(jQuery); 
+            
+        (function($) {
+            $(".modal-fullscreen").on('hidden.bs.modal', function () {
+          $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+        });
+        })(jQuery);
+            
+        </script>
+        
+    <!-- NAV AFFIX SCRIPTS -->
+        <script>
+            (function($) {
+            $('#nav').affix({
+                offset: {top: 730.2}
+            });
+        })(jQuery);
+            
+            (function($) {
+                $('body').scrollspy({target: '#nav'})
+            })(jQuery);
+            
+        </script>
 
 	</body>
 </html>
