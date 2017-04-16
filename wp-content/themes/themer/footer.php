@@ -5,11 +5,12 @@
                 <!-- FORM -->
                  
                 <div id="contact">
-                <div class="container-fluid" style="background-color: #424242; padding-top: 50px; padding-bottom: 50px;">
+                <div class="container-fluid grey-bgc pt50 pb50">
                 <div class="row vdivide">
                     <div class="col-sm-6">
                             <div class="row justify-content-center">
                             <div class="col-10 cl-b">
+                                <h3>CONTACT US</h3>
                                  
                                 <?php ninja_forms_display_form(2) ?>
                                 
@@ -24,19 +25,20 @@
                     <div class="col-sm-6">
                         <img class="center-block footer-img" src="wp-content/themes/themer/img/grill-icon.png">
                         
-                        <div class="pt-5 cl-b fw-300">
-                            <h5 class="text-center">831 Van Ness Ave.</h5>
-                            <h5 class="text-center">Fresno, CA 93721</h5>
+                        <div class="p-3 cl-b fw-300">
+                            <h4 class="text-center">831 Van Ness Ave.</h4>
+                            <h4 class="text-center">Fresno, CA 93721</h4>
                         </div>
                         
-                        <div class="pt-4 cl-b fw-300">
-                            <h5 class="text-center">559.486.3536</h5>
-                            <h5 class="text-center">info.joessteakhouse@gmail.com</h5>
+                        <div class="p-2 cl-b fw-300">
+                            <h4 class="text-center">559.486.3536</h4>
+                            <h4 class="text-center">info.joessteakhouse@gmail.com</h4>
                         </div>
                         
-                        <div class="row justify-content-center pt-4">
+                        <div class="container-fluid">
+                        <div class="row justify-content-center p-2">
                             <div class="col-1 text-center">
-                                <a href="#" target="_blank"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/pages/Joes-Steakhouse-Grill/827678503974687" target="_blank"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
                             </div>
                                                         
                             <div class="col-1 text-center">
@@ -46,6 +48,7 @@
                             <div class="col-1 text-center">
                                 <a href="#" target="_blank"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
                             </div>
+                        </div>
                         </div>
                         
                         <div class="row justify-content-center pt-5">
@@ -128,14 +131,16 @@
     <!-- NAV AFFIX SCRIPTS -->
         <script>
             (function($) {
+            $('#nav-wrapper').height($('#nav').height());
+                
             $('#nav').affix({
-                offset: {top: 730.2}
+                offset: {top: $('#home').offset().top }
             });
         })(jQuery);
             
             (function($) {
-                $('body').scrollspy({target: '#nav'})
-            })(jQuery);
+            $('body').scrollspy({target: '#nav'})
+        })(jQuery);
             
         </script>
 

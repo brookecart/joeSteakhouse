@@ -8,6 +8,7 @@
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/zcss.css">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -56,7 +57,8 @@
             
         <!-- homepage image -->
             <div id="home">
-            <div class="carousel slide" data-ride="carousel">
+             <?php echo do_shortcode('[parallax-scroll id="535"]') ?>
+            <!--<div class="carousel slide" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active" style="display: block; width: 100%; height: auto;">
                   <img class="d-block img-fluid" src="wp-content/themes/themer/img/home-img.png" alt="Home image" style="object-fit: contain;">
@@ -64,23 +66,23 @@
                       <div class="row">
                           
                         <div class="col-12">
-                        <img src="wp-content/themes/themer/img/white-grill-icon.png" alt="Grill face logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/grill-icon.png" width="" height="" alt="Grill face logo" />
                           </div>
                         
                         <div class="col-12">
-                        <img src="wp-content/themes/themer/img/name.png" alt="Joe's Steakhouse and Grill">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/name.png" width="" height="" alt="Joe's Steakhouse and Grill" />
                         </div>
                           
                       </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div>-->
             </div>
         <!-- end homepage image -->
             
         <!-- navbar -->
-            
+        <div id="nav-wrapper">
             <div id="nav">
             <nav class="navbar navbar-inverse navbar-static-top navbar-md">
                 <div class="container-fluid">
@@ -106,6 +108,7 @@
                 </div>
             </nav>
             </div>
+        </div>
             
         <!-- end navbar -->
                 </section>
