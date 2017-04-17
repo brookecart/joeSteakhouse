@@ -25,7 +25,8 @@
                     <div class="col-sm-6">
                         <img class="center-block footer-img" src="wp-content/themes/themer/img/grill-icon.png">
                         
-                        <div class="p-3 pt-3 cl-b fw-300">
+                        <div class="footer-text-content">
+                        <div class="p-3 cl-b fw-300">
                             <h4 class="text-center">831 Van Ness Ave.</h4>
                             <h4 class="text-center">Fresno, CA 93721</h4>
                         </div>
@@ -51,11 +52,12 @@
                         </div>
                         </div>
                         
-                        <div class="row justify-content-center pt-5">
-                        <hp class="copyright cl-b">
+                        <div class="row justify-content-center pt-4">
+                        <p class="copyright cl-b fw-300">
                             &copy; <?// php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <br><?php _e('Powered by', 'html5blank'); ?>
                             <a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
                         </p>
+                        </div>
                         </div>
                     
                     </div>
