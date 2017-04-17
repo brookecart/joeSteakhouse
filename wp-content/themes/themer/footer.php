@@ -6,7 +6,7 @@
                  
                 <div id="contact">
                 <div class="container-fluid grey-bgc pt50 pb50">
-                <div class="row vdivide">
+                <div class="row zdivide">
                     <div class="col-sm-6">
                             <div class="row justify-content-center">
                             <div class="col-10 cl-b">
@@ -25,7 +25,7 @@
                     <div class="col-sm-6">
                         <img class="center-block footer-img" src="wp-content/themes/themer/img/grill-icon.png">
                         
-                        <div class="p-3 cl-b fw-300">
+                        <div class="p-3 pt-3 cl-b fw-300">
                             <h4 class="text-center">831 Van Ness Ave.</h4>
                             <h4 class="text-center">Fresno, CA 93721</h4>
                         </div>
@@ -52,7 +52,7 @@
                         </div>
                         
                         <div class="row justify-content-center pt-5">
-                        <p class="copyright cl-b">
+                        <hp class="copyright cl-b">
                             &copy; <?// php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <br><?php _e('Powered by', 'html5blank'); ?>
                             <a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
                         </p>
@@ -109,22 +109,30 @@
         <!--GOOGLE MAP SCRIPT-->
         <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 
-        <!--MODAL SCRIPT-->
+        <!-- DIV HEIGHT SCRIPT-->
         <script>  
             
-        (function($) {
-            $(".modal-fullscreen").on('show.bs.modal', function () {
-          setTimeout( function() {
-            $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
-          }, 0);
-        });   
-        })(jQuery); 
+            (function($) {
+            $('#parallax_535').height(
+                $(window).height() - $('#nav-wrapper').height()
+            );
+            })(jQuery);
             
-        (function($) {
-            $(".modal-fullscreen").on('hidden.bs.modal', function () {
-          $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
-        });
-        })(jQuery);
+            (function($) {
+            $('#parallax_537').height(
+                $('#glass-view').height()
+            );
+            })(jQuery); 
+            
+            (function($) {
+            $('#parallax_553').height(
+                $('#glass-view').height()
+            );
+            })(jQuery);
+            
+            (function($) {
+            $('#parallax_553_postcontent').css('padding', '');
+            })(jQuery);
             
         </script>
         
@@ -134,7 +142,7 @@
             $('#nav-wrapper').height($('#nav').height());
                 
             $('#nav').affix({
-                offset: {top: $('#home').offset().top }
+                offset: {top: $('#parallax_535').height() }
             });
         })(jQuery);
             

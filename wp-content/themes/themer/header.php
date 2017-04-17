@@ -57,27 +57,9 @@
             
         <!-- homepage image -->
             <div id="home">
+                
              <?php echo do_shortcode('[parallax-scroll id="535"]') ?>
-            <!--<div class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active" style="display: block; width: 100%; height: auto;">
-                  <img class="d-block img-fluid" src="wp-content/themes/themer/img/home-img.png" alt="Home image" style="object-fit: contain;">
-                  <div class="carousel-caption d-none d-md-block">
-                      <div class="row">
-                          
-                        <div class="col-12">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/grill-icon.png" width="" height="" alt="Grill face logo" />
-                          </div>
-                        
-                        <div class="col-12">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/name.png" width="" height="" alt="Joe's Steakhouse and Grill" />
-                        </div>
-                          
-                      </div>
-                  </div>
-                </div>
-              </div>
-            </div>-->
+                
             </div>
         <!-- end homepage image -->
             
