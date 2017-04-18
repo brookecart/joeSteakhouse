@@ -106,6 +106,10 @@ function html5blank_header_scripts()
         
         wp_register_script('smoothscroll.min.js', get_template_directory_uri() . '/js/smoothscroll.min.js');
         wp_enqueue_script('smoothscroll.min.js');
+        
+        wp_register_script('scroll.js',
+        plugin_dir_url() . 'adamrob-parallax-scroll/includes/js/scroll.js');
+        wp_enqueue_script('scroll.js');
  
     }
 }
