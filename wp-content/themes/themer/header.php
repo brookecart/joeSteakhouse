@@ -5,8 +5,8 @@
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
 
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
-        <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
-        <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+        <link href="<?php echo get_template_directory_uri(); ?>/img/grill-icon.png" rel="shortcut icon">
+        <link href="<?php echo get_template_directory_uri(); ?>/img/grill-icon.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/zcss.css">
