@@ -42,6 +42,7 @@
 				<!-- <br class="clear"> -->
 
 				<!-- <?php edit_post_link(); ?> -->
+                
 
 			</article>
 			<!-- /article -->
@@ -59,6 +60,29 @@
 			<!-- /article -->
 
 		<?php endif; ?>
+            
+            <?php $the_query = new WP_Query( array( 'post_type' => 'family_photo_posts' ) ); ?>
+                
+                    
+                    
+                <?php if ( $the_query->have_posts() ): ?>
+            
+                <article>
+                 <div class="row p0 m0">                
+                    <div class="col-3">
+                        
+                <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                        
+                    </div>
+                </div>
+                
+                    <?php wp_reset_postdata(); ?>
+                    <?php endwhile; ?>
+                    <?php endif; ?>
+            </article>
+    
+
+                    
 
 		</section>
 		<!-- /section -->

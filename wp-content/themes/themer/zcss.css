@@ -1,0 +1,311 @@
+/* == CUSTOM STYLES == */
+
+/* PADDING & MARGIN */
+.pt70 {
+    padding-top: 70px;
+}
+.pb70 {
+    padding-bottom: 70px;
+}
+.pb30 {
+    padding-bottom: 30px;
+}
+.pb55 {
+    padding-bottom: 55px;
+}
+.pt10 {
+    padding-top: 10px;
+}
+.p20 {
+    padding: 20px;
+}
+.pt50 {
+    padding-top: 50px;
+}
+.pb50 {
+    padding-bottom: 50px;
+}
+.p0 {
+    padding: 0px;
+}
+.m0 {
+    margin: 0px;
+}
+.mh-100 {
+    max-height: 100%;
+}
+.mw-100 {
+    max-width: 100%;
+}
+.map-height {
+    height: 254.27px;
+}
+.full-width {
+    width: 100%;
+}
+
+/* COLORS AND WEIGHTS */
+.cl-b {
+    color: black;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.bgc {
+    background-color: #5f5550;
+}
+.grey-bgc {
+    background-color: #515151;
+}
+.bgc-pattern {
+    background-color: #5f5550;
+    background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+/* DIVIDERS */
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #191919;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 45px;
+}
+.row.zdivide [class*='col-']:not(:last-child):after {
+  background: #191919;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 25px;
+}
+
+/* CAROUSELS */
+.custom-cr-style {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.view {
+    background-color: black;
+}
+.custom-img-style {
+    object-fit: contain;
+    opacity: 0.8;
+}
+.sm-custom-img-style {
+    object-fit: contain;
+    opacity: 0.6;
+}
+.cap-style {
+    top: 35%;
+    bottom: auto;
+}
+    /* button style */
+.custom-btn {
+    font-size: 22px;
+    color: white;
+    border-color: white;
+}
+.custom-btn-2 {
+    font-size: 13px;
+    border-color: black;
+    color: black;
+}
+.btn {
+    font-family: 
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial; 
+}
+.item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+a:link, a:visited {
+    color: inherit;
+}
+.fixed-section {
+    position: fixed;
+    top: 0;
+}
+
+/* FOOTER */
+.footer-img {
+    height: 260px;
+    width: 260px;
+}
+.fa {
+    color: black;
+}
+.footer-text-content {
+    padding-top: 20px;
+}
+
+/* PARLLAX STYLING */
+#parallax_537, #parallax_553 {
+    background-repeat: repeat;
+}
+#parallax_553_content {
+    margin: 0px;
+}
+#parallax_553_postcontent {
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+#parallax_553_posttitle,
+#parallax_537_posttitle {
+    display: none;
+}
+#parallax_535_content,
+#parallax_537_postcontent,
+#parallax_537_content,
+#parallax_553_content,
+#parallax_553_postcontent {
+    display: flex;
+    justify-content: center;
+}
+#parallax_535_postcontent {
+    align-self: center;
+}
+/*#parallax_537_posttitle {
+    display: none;
+}
+#parallax_537_postcontent {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}*/
+
+/* NINJA FORMS STYLING */
+.ninja-forms-field, .nf-form-content {
+    padding: 5px;
+}
+.form-wrapper {
+    max-width: 70%;
+}
+#nf-form-16 {
+    display: block;
+    margin: auto;
+}
+label[for="nf-field-5"],
+label[for="nf-field-6"],
+label[for="nf-field-9"],
+label[for="nf-field-7"] {
+    font-size: 13px;
+    font-weight: 200;
+}
+#nf-field-8 {
+    margin: auto;
+}
+#nf-field-5,
+#nf-field-6,
+#nf-field-9,
+#nf-field-7 {
+    background-color: #515151;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/* == MENU MODAL == */
+.overlay-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 70%;
+}
+.title-padding {
+    padding-top: 50px;
+}
+#menuoverlay, #drinkoverlay, #featureoverlay {
+    padding-right: 15px;
+}
+
+
+/* NAVBAR - AFFIX AND SCROLLSPY AND STYLES */
+.navbar-form input, .form-inline input {
+    width: auto;
+}
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+body {
+    position: relative;
+}
+a {
+    transition: 0.3s ease;
+}
+.navbar-md {min-height:60px}
+.navbar-md .navbar-brand,
+.navbar-md .navbar-nav>li>a {padding-top:20px; padding-bottom:20px}
+.navbar-md .navbar-brand {height: 80px}  
+.navbar-md .navbar-toggle {margin: 12px 24px 12px 0px; padding: 12px 14px 12px 20px;}
+.navbar-md .navbar-toggle .icon-bar {width: 38px;}
+.navbar-nav > li {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+#home {
+    min-height: 73.333px;
+}
+.glass-img-cs {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+
+/* == FONTS == */
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+.other-font {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 16px;
+}
+label {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 540px) {
+    #see-us {
+        display: none;
+    }
+    #glass-view {
+        display: none;
+    }
+    .carousel-caption {
+        display: block;
+    }
+    .row.sm-scr-hrs [class*='col-']:not(:last-child):after {
+      padding-bottom: 20px;bu
+}
+
+@media only screen and (min-width: 1140px) {
+    #glass-img {
+        display: none;
+    }
+}

@@ -1,4 +1,4 @@
-			<!-- footer -->
+            <!-- footer -->
 			<footer class="footer" role="contentinfo">
                 
                 <!-- FOOTER CONTENT -->
