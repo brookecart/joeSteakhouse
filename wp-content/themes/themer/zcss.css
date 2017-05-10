@@ -58,7 +58,7 @@
     background-color: #5f5550;
 }
 .grey-bgc {
-    background-color: #515151;
+    background-color: #5f5550;
 }
 .bgc-pattern {
     background-color: #5f5550;
@@ -156,6 +156,10 @@ a:link, a:visited {
 }
 
 /* PARLLAX STYLING */
+.landg-img-dim {
+    height: 395px;
+    width: 376px;
+}
 #parallax_537, #parallax_553 {
     background-repeat: repeat;
 }
@@ -181,6 +185,9 @@ a:link, a:visited {
 }
 #parallax_535_postcontent {
     align-self: center;
+}
+#parallax_535_posttitle {
+    display: none;
 }
 /*#parallax_537_posttitle {
     display: none;
@@ -217,11 +224,18 @@ label[for="nf-field-7"] {
 #nf-field-6,
 #nf-field-9,
 #nf-field-7 {
-    background-color: #515151;
-    border-color: black;
+    background-color: #6b625d;
+    border-color:#6b625d;
+    border-style: none;
     border-width: 1px;
     border-radius: 2px;
-    font-size: 14px;
+    font-size: 16px;
+}
+.ninja-forms-req-symbol, .nf-error-msg, .ninja-forms-field-error {
+    color: black;
+}
+.nf-error-wrap.nf-error {
+    display: none;
 }
 
 /* == MENU MODAL == */
@@ -289,6 +303,24 @@ h1, h2, h3, h4, h5, h6, li {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* THUMBNAIL SLIDERS */
+.bx-wrapper {
+    margin: 0px;
+}
+
+/* HORIZONTAL SCROLL CLASSES */
+.h-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+.h-scroll-extra {
+    display: inline-block;
+    float: none;
+    white-space: normal;
+    vertical-align: middle;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 540px) {
     #see-us {
@@ -301,7 +333,26 @@ h1, h2, h3, h4, h5, h6, li {
         display: block;
     }
     .row.sm-scr-hrs [class*='col-']:not(:last-child):after {
-      padding-bottom: 20px;bu
+      padding-bottom: 20px;
+    }
+    #menu-cap > h3 {
+        display: none;
+    }
+    #cater-cap > h3 {
+        display: none;
+    }
+    #history-cap > h3 {
+        display: none;
+    }
+    #hour-padng > .col-sm:not(:last-child) {
+        padding-bottom: 25px;
+    }
+    #host-text > h3 {
+        display: none;
+    }
+    #heart-text > h3 {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1140px) {

@@ -5,15 +5,17 @@ Plugin URI: https://wppopupmaker.com/?utm_capmaign=Readme&utm_source=readme-head
 Donate link:
 Tags: marketing, optin, advertising, responsive popups, promotion, popover, pop-up, pop over, lightbox, conversion, modal, popup, popups
 Requires at least: 3.6
-Tested up to: 4.7.2
-Stable tag: 1.5.8
+Tested up to: 4.7.4
+Stable tag: 1.6.0
 License: GNU Version 3 or Any Later Version
 
 Create any popup imaginable! Customize your popups from head-to-toe and give your site more utility, usability, and conversions.
 
 == Description ==
 
-Popup Maker is the most advanced and versatile wordpress popup plugin. Create any type of modal or content overlay.
+= Best WordPress Popup Plugin =
+
+Popup Maker is the **best popup plugin WordPress** has to offer. It is extremely versatile & flexible. Bend it to create any type of modal or content overlay for your WordPress website.
 
 Customize every facet of your popups, from theme and position, to targeting and cookies.
 
@@ -25,7 +27,7 @@ https://www.youtube.com/watch?v=MAf85_oax4g
 
 Follow this plugin on [GitHub](https://github.com/PopupMaker/Popup-Maker) and [Twitter](https://twitter.com/wppopupmaker)!
 
-Would you like to help translate the plugin into more languages? [Join our WP-Translations Community](https://translate.wordpress.org/projects/wp-plugins/popup-maker).
+Would you like to help translate the **best wordpress popup plugin** into more languages? [Join our WP-Translations Community](https://translate.wordpress.org/projects/wp-plugins/popup-maker).
 
 = What's Included for Free: =
 > + The plugin has limitless potential with no artificial restrictions. If you can’t get the functionality you’re after, we’ll be happy to help you! Just ask on the [Support Forums](https://wordpress.org/support/plugin/popup-maker).
@@ -88,6 +90,21 @@ There are several common causes for this which include:
 9. Create any popup imaginable using our color pickers and sliders!
 
 == Changelog ==
+
+= v1.6.0 - 04/28/2017 =
+* Feature: Added Gravity Forms direct integrations.
+  * Close popup with delay when Gravity Form is submitted.
+  * Trigger a thank you popup when Gravity Form is submitted.
+  * Set cookies easily when the Gravity Form is in a popup.
+* Feature: Added Contact Form 7 (CF7) direct integrations.
+  * Close popup with delay when contact form 7 is submitted.
+  * Trigger a thank you popup when contact form 7 is submitted.
+  * Set cookies easily when the CF7 form is in a popup.
+  * Forced CF7 assets to load when used in a popup on the off chance they don't automatically.
+* Tweak: Increased action priority for condition registration in case plugins register post types late, such as PODs.
+* Tweak: Moved popup theme styles to a very late position in the head to prevent them from being overwritten when minifying CSS.
+* Fix: Bug where you couldn't enter values higher than the rangeslider max.
+* Fix: JS error when creating a cookie before a trigger exists.
 
 = v1.5.8 - 04/04/2017 =
 * Fix: Error when extensions were active due to null values for checkboxes.

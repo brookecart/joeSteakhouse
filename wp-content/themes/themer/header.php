@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?> class="no-js">
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
-		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
+		<title>Joe's Steakhouse and Grill</title>
 
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/grill-icon.png" rel="shortcut icon">
@@ -27,9 +27,8 @@
             tests: {}
         });
         </script>
-
 	</head>
-	<body data-spy="scroll" data-target="#nav" <?php body_class(); ?>>
+	<body>
 
 		<!-- wrapper -->
 		<!-- <div class="wrapper"> -->

@@ -61,28 +61,27 @@
 
 		<?php endif; ?>
             
-            <?php $the_query = new WP_Query( array( 'post_type' => 'family_photo_posts' ) ); ?>
-                
-                    
-                    
-                <?php if ( $the_query->have_posts() ): ?>
+        <article id="post-<?php the_ID(); ?> <?php $post->post_name; ?>" <?php post_class(); ?>>
             
-                <article>
-                 <div class="row p0 m0">                
-                    <div class="col-3">
-                        
-                <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                        
-                    </div>
-                </div>
+        <?php $loop = new WP_Query( array( 'post_type' => 'family_photo_post', 'posts_per_page' => -1 ) ); ?>
+            
+            <div class="container-fluid m0 p0">
+            <div class="row m0 p0" style="padding-top: 50px; padding-bottom: 50px;">
+            <div class="slickslider" style="overflow: hidden;">
                 
-                    <?php wp_reset_postdata(); ?>
-                    <?php endwhile; ?>
-                    <?php endif; ?>
-            </article>
-    
-
-                    
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        <div class="col-3">
+        <img src="<?php the_field('family_photo_field'); ?>" class="img-fluid" alt="Family photo">
+                </div>
+        <?php endwhile; wp_reset_query(); ?>
+             
+            
+            </div>
+            </div>
+            </div>
+        </article>
+            
+                
 
 		</section>
 		<!-- /section -->

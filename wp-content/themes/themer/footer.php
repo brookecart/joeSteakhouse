@@ -43,11 +43,11 @@
                             </div>
                                                         
                             <div class="col-1 text-center">
-                                <a href="#" target="_blank"><i class="fa fa-3x fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/joessteakhousefresno/" target="_blank"><i class="fa fa-3x fa-instagram" aria-hidden="true"></i></a>
                             </div>
                             
                             <div class="col-1 text-center">
-                                <a href="#" target="_blank"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/Joessteakhouse" target="_blank"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         </div>
@@ -67,15 +67,6 @@
                 </div>
             
                 <!-- END FOOTER CONTENT -->
-                
-                
-                
-				<!-- copyright -->
-				<!-- <p class="copyright">
-					&copy; <?// php echo date('Y'); ?> Copyright <?//php bloginfo('name'); ?>. <?//php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<!-- /copyright -->
 			</footer>
 			<!-- /footer -->
 
@@ -93,6 +84,9 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
+
+        <!--GOOGLE MAP SCRIPT-->
+        
         <script>
             function myMap() {
                 var myLatLng = {lat: 36.733104, lng: -119.787595};
@@ -108,49 +102,59 @@
             }
         </script>
 
-        <!--GOOGLE MAP SCRIPT-->
         <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 
-        <!-- DIV HEIGHT SCRIPT-->
-        <script>  
-            
-            (function($) {
-            $('#parallax_535').height(
-                $(window).height() - $('#nav-wrapper').height()
-            );
-            })(jQuery);
-            
-            (function($) {
-            $('#parallax_537').height(
-                $('#glass-view').height()
-            );
-            })(jQuery); 
-            
-            (function($) {
-            $('#parallax_553').height(
-                $('#glass-view').height()
-            );
-            })(jQuery);
-            
-            (function($) {
-            $('#parallax_553_postcontent').css('padding', '');
-            })(jQuery);
-            
-        </script>
-        
-    <!-- NAV AFFIX SCRIPTS -->
+
         <script>
+
             (function($) {
-            $('#nav-wrapper').height($('#nav').height());
-                
             $('#nav').affix({
                 offset: {top: $('#parallax_535').height() }
             });
         })(jQuery);
             
+        </script>
+        <script>
+            
             (function($) {
-            $('body').scrollspy({target: '#nav'})
-        })(jQuery);
+                $(document).ready(function(){
+                  $('.slickslider').slick({
+                    dots: true,
+                      infinite: false,
+                      speed: 300,
+                      slidesToShow: 3,
+                      slidesToScroll: 3,
+                      responsive: [
+                        {
+                          breakpoint: 1024,
+                          settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            infinite: true,
+                            dots: true
+                          }
+                        },
+                        {
+                          breakpoint: 600,
+                          settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                          }
+                        },
+                        {
+                          breakpoint: 480,
+                          settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                          }
+                        }
+                        // You can unslick at a given breakpoint now by adding:
+                        // settings: "unslick"
+                        // instead of a settings object
+                      ]
+                    });
+                });
+            })(jQuery);
             
         </script>
 
