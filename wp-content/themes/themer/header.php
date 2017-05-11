@@ -18,7 +18,6 @@
 		<?php wp_head(); ?>
         
         <script src="https://use.fontawesome.com/002d370eca.js"></script>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/smoothscroll.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
         // conditionizr.com
         // configure environment tests
@@ -28,26 +27,7 @@
         });
         </script>
 	</head>
-	<body>
-
-		<!-- wrapper -->
-		<!-- <div class="wrapper"> -->
-
-			<!-- header -->
-			<!-- <header class="header clear" role="banner"> -->
-
-					<!-- logo -->
-					<!-- <div class="logo">
-						<a href="<?php echo home_url(); ?>"> -->
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-                    </div> -->
-					<!-- /logo -->
-
-			<!-- </header> -->
-			<!-- /header -->
-        
+	<body>        
         	<main role="main">
 		<!-- section -->
 		<section>
@@ -68,13 +48,13 @@
             <nav class="navbar navbar-inverse navbar-static-top navbar-md">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-coll">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span> 
                       </button>
                     </div>
-                <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse text-center" id="nav-coll">
                     <ul class="nav navbar-nav" style="display: inline-block; float: none;">
                         <li><a href="#home">HOME</a></li>
                         <li><a href="#menu">MENU</a></li>

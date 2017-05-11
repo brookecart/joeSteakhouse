@@ -308,18 +308,29 @@ h1, h2, h3, h4, h5, h6, li {
     margin: 0px;
 }
 
-/* HORIZONTAL SCROLL CLASSES */
-.h-scroll {
-    overflow-x: auto;
-    white-space: nowrap;
-    width: 100%;
+/* SLICK CLASSES */
+.container-pls {
+    position: relative;
+    margin: 1rem;
+    height: 400px;
+    overflow: hidden;
 }
-.h-scroll-extra {
-    display: inline-block;
-    float: none;
-    white-space: normal;
-    vertical-align: middle;
+.img-pls {
+    display: block;
+    height: 100%;
+    max-width: none;
+    vertical-align: center;
+    margin: 0 auto;
+    position: absolute;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
 }
+
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 540px) {

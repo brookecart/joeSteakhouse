@@ -5,24 +5,6 @@
 	<main role="main">
 		<!-- section -->
 		<section>
-
-		<!-- <h1><?php the_title(); ?></h1> -->
-            
-        <!-- homepage image -->
-<!--
-            <div class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active" style="display: block; width: 100%; height: auto;">
-                  <img class="d-block img-fluid" src="http://localhost:8080/wp-content/uploads/2017/03/home-photo-min.png" alt="First slide" style="object-fit: contain;">
-                  <div class="carousel-caption d-none d-md-block" style="top: 45%; bottom: auto;">
-                   <h3>Joe's Steakhouse</h3>
-                    <p>and Grill</p>
-                  </div>
-                </div>
-              </div>
-            </div> 
--->
-        <!-- end homepage image -->
             
         <!-- navbar -->
             
@@ -66,19 +48,20 @@
         <?php $loop = new WP_Query( array( 'post_type' => 'family_photo_post', 'posts_per_page' => -1 ) ); ?>
             
             <div class="container-fluid m0 p0">
-            <div class="row m0 p0" style="padding-top: 50px; padding-bottom: 50px;">
-            <div class="slickslider" style="overflow: hidden;">
+            <div class="row slickslider m0 pb70 pt70">
                 
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="col-3">
-        <img src="<?php the_field('family_photo_field'); ?>" class="img-fluid" alt="Family photo">
-                </div>
+        <div class="container-pls">
+        <img class="slick-img img-pls" src="<?php the_field('family_photo_field'); ?>" class="img-fluid" alt="Family photo">
+        </div>
+        </div>
         <?php endwhile; wp_reset_query(); ?>
              
             
             </div>
             </div>
-            </div>
+            <!--</div>-->
         </article>
             
                 
